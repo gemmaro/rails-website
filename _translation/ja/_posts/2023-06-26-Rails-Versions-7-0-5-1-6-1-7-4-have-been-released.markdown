@@ -1,24 +1,23 @@
 ---
 author: tenderlove
-categories: releases
+categories: リリース
 date: '2023-06-26 14:51:20 -07:00'
 layout: post
 published: true
-title: 'Rails Versions 7.0.5.1, 6.1.7.4 have been released!'
+title: Railsバージョン7.0.5.1、6.1.7.4がリリースされました！
 ---
 
-Hi everyone! Rails versions 7.0.5.1 and 6.1.7.4 have been released! These
-are security releases, so please upgrade when you get a chance! You can
-check out the CVE details
-[here](https://discuss.rubyonrails.org/t/cve-2023-28362-possible-xss-via-user-supplied-values-to-redirect-to/83132).
-Also, the 6.0 and older series are no longer supported. We'd encourage users
-on that release to upgrade to a supported version as soon as possible.
+どうも皆さん！
+Railsバージョン7.0.5.1と6.1.7.4がリリースされました！
+これらはセキュリティリリースなので、お手隙で更新してください！
+[こちら](https://discuss.rubyonrails.org/t/cve-2023-28362-possible-xss-via-user-supplied-values-to-redirect-to/83132)でCVEの詳細をご確認いただけます。
+また、6.0よりも古いシリーズは最早サポートされていないため、そちらのリリースをお使いのユーザーはできるだけ早くサポートされているバージョンへの更新を推奨します。
 
-Thanks, and have a great day!
+お読みいただきありがとうございます、良い一日を！
 
 ❤️
 
-For those interested, below are the awesome shasums for these releases
+ご興味のある方は、これらのリリースのために以下の素晴しいshasumをどうぞ
 
 ```
 $ shasum *6.1.7.4*
