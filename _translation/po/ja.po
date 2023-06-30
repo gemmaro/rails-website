@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Ruby on Rails website\n"
-"POT-Creation-Date: 2023-06-30 20:40+0900\n"
-"PO-Revision-Date: 2023-06-30 21:02+0900\n"
+"POT-Creation-Date: 2023-07-01 07:48+0900\n"
+"PO-Revision-Date: 2023-07-01 08:52+0900\n"
 "Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -36,6 +36,7 @@ msgstr "2023-06-26 14:51:20 -07:00"
 #. type: YAML Front Matter: layout
 #: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
 #: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "post"
 msgstr "post"
@@ -43,6 +44,7 @@ msgstr "post"
 #. type: YAML Front Matter: published
 #: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
 #: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "true"
 msgstr "true"
@@ -212,20 +214,31 @@ msgid ""
 "github.com/rails/rails/blob/v7.0.6/railties/CHANGELOG.md)"
 msgstr ""
 "各gemの変更についてはGitHubで変更履歴をお読みください。\n"
-"* [Action Cableの変更履歴](https://github.com/rails/rails/blob/v7.0.6/actioncable/CHANGELOG.md)\n"
-"* [Action Mailboxの変更履歴](https://github.com/rails/rails/blob/v7.0.6/actionmailbox/CHANGELOG.md)\n"
-"* [Action Mailerの変更履歴](https://github.com/rails/rails/blob/v7.0.6/actionmailer/CHANGELOG.md)\n"
-"* [Action Packの変更履歴](https://github.com/rails/rails/blob/v7.0.6/actionpack/CHANGELOG.md)\n"
-"* [Action Textの変更履歴](https://github.com/rails/rails/blob/v7.0.6/actiontext/CHANGELOG.md)\n"
-"* [Action Viewの変更履歴](https://github.com/rails/rails/blob/v7.0.6/actionview/CHANGELOG.md)\n"
-"* [Active Jobの変更履歴](https://github.com/rails/rails/blob/v7.0.6/activejob/CHANGELOG.md)\n"
-"* [Active Modelの変更履歴](https://github.com/rails/rails/blob/v7.0.6/activemodel/CHANGELOG.md)\n"
-"* [Active Recordの変更履歴](https://github.com/rails/rails/blob/v7.0.6/activerecord/CHANGELOG.md)\n"
-"* [Active Storageの変更履歴](https://github.com/rails/rails/blob/v7.0.6/activestorage/CHANGELOG.md)\n"
+"* [Action Cableの変更履歴](https://github.com/rails/rails/blob/v7.0.6/"
+"actioncable/CHANGELOG.md)\n"
+"* [Action Mailboxの変更履歴](https://github.com/rails/rails/blob/v7.0.6/"
+"actionmailbox/CHANGELOG.md)\n"
+"* [Action Mailerの変更履歴](https://github.com/rails/rails/blob/v7.0.6/"
+"actionmailer/CHANGELOG.md)\n"
+"* [Action Packの変更履歴](https://github.com/rails/rails/blob/v7.0.6/"
+"actionpack/CHANGELOG.md)\n"
+"* [Action Textの変更履歴](https://github.com/rails/rails/blob/v7.0.6/"
+"actiontext/CHANGELOG.md)\n"
+"* [Action Viewの変更履歴](https://github.com/rails/rails/blob/v7.0.6/"
+"actionview/CHANGELOG.md)\n"
+"* [Active Jobの変更履歴](https://github.com/rails/rails/blob/v7.0.6/"
+"activejob/CHANGELOG.md)\n"
+"* [Active Modelの変更履歴](https://github.com/rails/rails/blob/v7.0.6/"
+"activemodel/CHANGELOG.md)\n"
+"* [Active Recordの変更履歴](https://github.com/rails/rails/blob/v7.0.6/"
+"activerecord/CHANGELOG.md)\n"
+"* [Active Storageの変更履歴](https://github.com/rails/rails/blob/v7.0.6/"
+"activestorage/CHANGELOG.md)\n"
 "* [Active Supportの変更履歴][as]\n"
 "* [Railtiesの変更履歴][r]\n"
 "\n"
-"[as]: https://github.com/rails/rails/blob/v7.0.6/activesupport/CHANGELOG.md<\n"
+"[as]: https://github.com/rails/rails/blob/v7.0.6/activesupport/CHANGELOG."
+"md<\n"
 "[r]: https://github.com/rails/rails/blob/v7.0.6/railties/CHANGELOG.md"
 
 #. type: Plain text
@@ -249,7 +262,9 @@ msgstr "*全体のコード*\n"
 msgid ""
 "To see the full list of changes, [check out all the commits on GitHub]"
 "(https://github.com/rails/rails/compare/v7.0.5...v7.0.6)."
-msgstr "変更の全一覧については[GitHubで全コミットをご確認下さい](https://github.com/rails/rails/compare/v7.0.5...v7.0.6)。"
+msgstr ""
+"変更の全一覧については[GitHubで全コミットをご確認下さい](https://github.com/"
+"rails/rails/compare/v7.0.5...v7.0.6)。"
 
 #. type: Title ##
 #: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:40
@@ -262,7 +277,9 @@ msgstr "SHA-256"
 msgid ""
 "If you'd like to verify that your gem is the same as the one I've uploaded, "
 "please use these SHA-256 hashes."
-msgstr "落としてきたgemがアップロードされているものと同じか検証されたい場合は、以下のSHA-256ハッシュをお使いください。"
+msgstr ""
+"落としてきたgemがアップロードされているものと同じか検証されたい場合は、以下の"
+"SHA-256ハッシュをお使いください。"
 
 #. type: Plain text
 #: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:46
@@ -307,4 +324,283 @@ msgstr ""
 #: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:64
 msgid ""
 "As always, huge thanks to the many contributors who helped with this release."
-msgstr "毎度のことながら、本リリースでご助力いただいた数多くの貢献者の方々に深く感謝致します。"
+msgstr ""
+"毎度のことながら、本リリースでご助力いただいた数多くの貢献者の方々に深く感謝"
+"致します。"
+
+#. type: YAML Front Matter: author
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "vipulnsward"
+msgstr "vipulnsward"
+
+#. type: YAML Front Matter: categories
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "news"
+msgstr "お知らせ"
+
+#. type: YAML Front Matter: date
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "2023-06-30"
+msgstr "2023-06-30"
+
+#. type: YAML Front Matter: title
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "A CVE, two new Rails releases in a week, config.autoload_lib, and more!"
+msgstr "CVE、1週間に2回の新規Railsリリース、config.autoload_libなど盛り沢山！"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:12
+msgid ""
+"Happy Friday Everyone! This is [Vipul](https://www.saeloun.com/team/vipul), "
+"bringing you the latest changes in the Rails codebase."
+msgstr ""
+"皆さん金曜日をいかがお過ごしでしょうか。\n"
+"この私[Vipul](https://www.saeloun.com/team/vipul)からRailsのコードベースにあった最新の変更をお届けします。"
+
+# JWNなどから訳を参考にできる？
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:13
+#, no-wrap
+msgid "[[CVE-2023-28362] Possible XSS via User Supplied Values to redirect_to](https://discuss.rubyonrails.org/t/cve-2023-28362-possible-xss-via-user-supplied-values-to-redirect-to/83132)  \n"
+msgstr "[[CVE-2023-28362] 利用者により与えられたredirect_toへの値によるXSSの可能性](https://discuss.rubyonrails.org/t/cve-2023-28362-possible-xss-via-user-supplied-values-to-redirect-to/83132)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:18
+msgid ""
+"If you haven't already, its time to upgrade your Rails application to the "
+"latest version! Rails versions **7.0.5.1**, **6.1.7.4** have been released "
+"with a security fix for a possible XSS vulnerability in `redirect_to` when "
+"using user-supplied values.  It fixes the `redirect_to` method in Rails that "
+"allowed provided values to contain characters which are not legal in an HTTP "
+"header value.  This vulnerability has been assigned the CVE identifier "
+"**_CVE-2023-28362_**."
+msgstr ""
+"お済みでなければご自身のRailsアプリケーションを最新版に更新してください！\n"
+"利用者により与えられた値を使う場合の`redirect_to`にXSS脆弱性の可能性があった件について、セキュリティ修正を当てるRailsバージョン**7.0.5.1**、**6.1.7.4**がリリースされました。\n"
+"修正の対象はRailsの`redirect_to`メソッドで、HTTPヘッダーの値として非合法な文字を含む値を与えることができていました。\n"
+"この脆弱性はCVE識別子**_CVE-2023-28362_**に割り当てられました。"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:19
+#, no-wrap
+msgid "[Rails 7.0.6 has been released!](https://rubyonrails.org/2023/6/29/Rails-7-0-6-has-been-released)  \n"
+msgstr "[Rails 7.0.6がリリースされました！]({% post_url 2023-06-29-Rails-7-0-6-has-been-released %})  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:21
+msgid ""
+"Rails **7.0.6** has also been released. This release contains many "
+"backported bug-fixes in the last few months since **7.0.4** release."
+msgstr ""
+"Rails **7.0.6** がリリースされました。\n"
+"本リリースには、**7.0.4**リリース以降の直近数箇月にバックポートされた多くのバグ修正が含まれています。"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:22
+#, no-wrap
+msgid "[Introduce config.autoload_lib](https://github.com/rails/rails/pull/48572)  \n"
+msgstr "[config.autoload_libを導入](https://github.com/rails/rails/pull/48572)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:24
+msgid ""
+"The new method `config.autoload_lib(ignore:)` provides a simple way to "
+"autoload from `lib` folder:"
+msgstr "新メソッド`config.autoload_lib(ignore:)`により、`lib`フォルダから簡単に自動読み込みすることができるようになりました。"
+
+#. type: Fenced code block (ruby)
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:25
+#, no-wrap
+msgid ""
+" # config/application.rb\n"
+" config.autoload_lib(ignore: %w(assets tasks))\n"
+msgstr ""
+" # config/application.rb\n"
+" config.autoload_lib(ignore: %w(assets tasks))\n"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:32
+msgid ""
+"Normally, the `lib` directory has subdirectories that should not be "
+"autoloaded or eager loaded.  This new method allows you to specify which "
+"subdirectories to be autoloaded as needed."
+msgstr ""
+"大抵、`lib`ディレクトリには自動読み込みまたは積極読み込みされるべきではない副ディレクトリがあります。\n"
+"この新メソッドではどの副ディレクトリを自動読み込みするかを必要に応じて指定できます。"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:34
+msgid ""
+"Read more about this new feature in the [autoloading guide](https://guides."
+"rubyonrails.org/v7.1/autoloading_and_reloading_constants.html)."
+msgstr "この新機能についての詳しいことは[自動読み込みの手引き](https://guides.rubyonrails.org/v7.1/autoloading_and_reloading_constants.html)をお読み下さい。"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:36
+msgid ""
+"[Introduce config.autoload_lib_once](https://github.com/rails/rails/"
+"pull/48610)"
+msgstr "[config.autoload_lib_onceを導入](https://github.com/rails/rails/pull/48610)"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:39
+msgid ""
+"The method `config.autoload_lib_once(ignore:)` is similar to `config."
+"autoload_lib` introduced above, except that it adds lib to `config."
+"autoload_once_paths` instead."
+msgstr "メソッド`config.autoload_lib_once(ignore:)`は上で導入した`config.autoload_lib`と似ていますが、libを`config.autoload_once_paths`に追加する点だけが異なります。"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:42
+msgid ""
+"By calling `config.autoload_lib_once`, classes and modules in `lib` can be "
+"autoloaded, even from application initializers, but won't be reloaded."
+msgstr "`config.autoload_lib_once`を呼び出すことで、アプリケーションの初期化の部分であったとしても`lib`中のクラスとモジュールが自動読み込みされるようになりますが、再読み込みされることはありません。"
+
+# bounce email: 不達Eメール
+# 参照： https://ja.wikipedia.org/wiki/%E3%83%90%E3%82%A6%E3%83%B3%E3%82%B9%E3%83%A1%E3%83%BC%E3%83%AB
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:43
+#, no-wrap
+msgid "[Bounce emails can now be sent with deliver_now](https://github.com/rails/rails/pull/48446)  \n"
+msgstr "[不達Eメールをdeliver_nowで送れるようになりました](https://github.com/rails/rails/pull/48446)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:46
+msgid ""
+"This change adds `bounce_now_with` to `ActionMailbox`.  This is useful when "
+"you want to send the bounce email immediately, instead of going through the "
+"mailer queue-"
+msgstr ""
+"この変更では`bouse_now_with`を`ActionMailbox`に追加しています。\n"
+"不達Eメールをメーラーキューを通すことなく直ちに送りたい場合に便利です。"
+
+#. type: Fenced code block (ruby)
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:47
+#, no-wrap
+msgid ""
+" # Enqueues the bounce email\n"
+"MyMailbox.bounce_with MyMailer.my_method(args)\n"
+"\n"
+"# Delivers the email immediately\n"
+"MyMailbox.bounce_now_with MyMailer.my_method(args)\n"
+msgstr ""
+" # 不達Eメールをキューに追加\n"
+"MyMailbox.bounce_with MyMailer.my_method(args)\n"
+"\n"
+"# Eメールを直ちに配送\n"
+"MyMailbox.bounce_now_with MyMailer.my_method(args)\n"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:55
+#, no-wrap
+msgid "[DATABASE option for railties:install:migrations](https://github.com/rails/rails/pull/48579)  \n"
+msgstr "[railties:install:migrations用のDATABASEオプション](https://github.com/rails/rails/pull/48579)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:57
+msgid ""
+"This change adds a new `DATABASE` option to `railties:install:migrations` "
+"task."
+msgstr "この変更では`DATABASE`新規オプションを`railties:install:migrations`タスクに追加します。"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:59
+msgid ""
+"This allows us to specify which database the migrations should be copied to "
+"when running `rails railties:install:migrations` in engines-"
+msgstr "これによりエンジンで`rails railties:install:migrations`を走らせる際にどのデータベースマイグレーションが複製されるべきかを指定できるようになりました。"
+
+#. type: Fenced code block (bash)
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:60
+#, no-wrap
+msgid "$ rails railties:install:migrations DATABASE=animals\n"
+msgstr "$ rails railties:install:migrations DATABASE=animals\n"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:64
+#, no-wrap
+msgid "[Active Record encryption support for decrypting data previously encrypted non-deterministically](https://github.com/rails/rails/pull/48530)  \n"
+msgstr "[以前非決定的に暗号化されたデータを復号するActive Recordの暗号の対応](https://github.com/rails/rails/pull/48530)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:66
+msgid ""
+"This change adds support to decrypting data encrypted non-deterministically "
+"with a `SHA1` hash digest."
+msgstr "この変更では`SHA1`ハッシュダイジェストで非決定的に暗号化されたデータを復号する対応が追加されました。"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:68
+msgid ""
+"It adds a new Active Record encryption option to support decrypting data "
+"encrypted non-deterministically with a SHA1 hash digest:"
+msgstr "SHA1ハッシュダイジェストで非決定的に暗号化されたデータの復号に対応するActive Recordの新規オプションを追加しています。"
+
+#. type: Fenced code block
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:69
+#, no-wrap
+msgid "Rails.application.config.active_record.encryption.support_sha1_for_non_deterministic_encryption = true\n"
+msgstr "Rails.application.config.active_record.encryption.support_sha1_for_non_deterministic_encryption = true\n"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:74
+msgid ""
+"It addresses a problem when upgrading from 7.0 to 7.1 where SHA-1 was being "
+"used as its digest class instead of global one."
+msgstr "大域的なダイジェストクラスの代わりにSHA-1が使われている場合に7.0から7.1に更新する際の問題が対処されています。"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:75
+#, no-wrap
+msgid "[Add :report behavior to ActiveSupport::Deprecation](https://github.com/rails/rails/pull/48578)  \n"
+msgstr "[ActiveSupport::Deprecationに:report動作を追加](https://github.com/rails/rails/pull/48578)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:77
+msgid "This change adds a `:report` behavior for `ActiveSupport::Deprecation`."
+msgstr "この変更では`ActiveSupport::Deprecation`に`:report`動作を追加します。"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:79
+msgid ""
+"Setting `config.active_support.deprecation = :report` uses the error "
+"reporter to report deprecation warnings to `ActiveSupport::ErrorReporter`."
+msgstr "`config.active_support.deprecation = :report`はエラー報告器を使って非推奨の警告を`ActiveSupport::ErrorReporter`に報告するよう設定します。"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:81
+msgid ""
+"This is useful to report deprecations happening in production to bug "
+"trackers, instead of them being logged silently."
+msgstr "これは実運用で発生した非推奨の報告について、ただログに流れたままにする代わりに、不具合管理表に報告させるようにするのに便利です。"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:83
+#, no-wrap
+msgid "_You can view the complete list of changes [here](https://github.com/rails/rails/compare/@%7B2023-06-24%7D...main@%7B2023-06-30%7D)._  \n"
+msgstr "_変更の全一覧については[こちらをご覧下さい](https://github.com/rails/rails/compare/@%7B2023-06-24%7D...main@%7B2023-06-30%7D)。_\n"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:85
+msgid ""
+"_We had [25 contributors](https://contributors.rubyonrails.org/contributors/"
+"in-time-window/20230624-20230630) to the Rails codebase this past week!_"
+msgstr "_この1週間に[25名の方々](https://contributors.rubyonrails.org/contributors/in-time-window/20230624-20230630)からRailsのコードベースに貢献していただきました！_"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:87
+#, no-wrap
+msgid "Happy Friday again! Until next time :-)   \n"
+msgstr "良い金曜日をお過ごし下さい！また次回をお楽しみに :-)   \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:88
+msgid ""
+"_[Subscribe](https://world.hey.com/this.week.in.rails) to get these updates "
+"mailed to you._"
+msgstr "_[購読](https://world.hey.com/this.week.in.rails)するとこうした更新をメールで受け取れます。_"

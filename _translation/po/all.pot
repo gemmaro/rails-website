@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-30 20:40+0900\n"
+"POT-Creation-Date: 2023-07-01 07:48+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,6 +38,7 @@ msgstr ""
 #. type: YAML Front Matter: layout
 #: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
 #: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "post"
 msgstr ""
@@ -45,6 +46,7 @@ msgstr ""
 #. type: YAML Front Matter: published
 #: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
 #: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "true"
 msgstr ""
@@ -277,4 +279,301 @@ msgstr ""
 msgid ""
 "As always, huge thanks to the many contributors who helped with this "
 "release."
+msgstr ""
+
+#. type: YAML Front Matter: author
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "vipulnsward"
+msgstr ""
+
+#. type: YAML Front Matter: categories
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "news"
+msgstr ""
+
+#. type: YAML Front Matter: date
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "2023-06-30"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "A CVE, two new Rails releases in a week, config.autoload_lib, and more!"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:12
+#, markdown-text
+msgid ""
+"Happy Friday Everyone! This is [Vipul](https://www.saeloun.com/team/vipul), "
+"bringing you the latest changes in the Rails codebase."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:13
+#, markdown-text, no-wrap
+msgid ""
+"[[CVE-2023-28362] Possible XSS via User Supplied Values to "
+"redirect_to](https://discuss.rubyonrails.org/t/cve-2023-28362-possible-xss-via-user-supplied-values-to-redirect-to/83132)  "
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:18
+#, markdown-text
+msgid ""
+"If you haven't already, its time to upgrade your Rails application to the "
+"latest version! Rails versions **7.0.5.1**, **6.1.7.4** have been released "
+"with a security fix for a possible XSS vulnerability in `redirect_to` when "
+"using user-supplied values.  It fixes the `redirect_to` method in Rails that "
+"allowed provided values to contain characters which are not legal in an HTTP "
+"header value.  This vulnerability has been assigned the CVE identifier "
+"**_CVE-2023-28362_**."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:19
+#, markdown-text, no-wrap
+msgid ""
+"[Rails 7.0.6 has been "
+"released!](https://rubyonrails.org/2023/6/29/Rails-7-0-6-has-been-released)  "
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:21
+#, markdown-text
+msgid ""
+"Rails **7.0.6** has also been released. This release contains many "
+"backported bug-fixes in the last few months since **7.0.4** release."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:22
+#, markdown-text, no-wrap
+msgid ""
+"[Introduce config.autoload_lib](https://github.com/rails/rails/pull/48572)  "
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:24
+#, markdown-text
+msgid ""
+"The new method `config.autoload_lib(ignore:)` provides a simple way to "
+"autoload from `lib` folder:"
+msgstr ""
+
+#. type: Fenced code block (ruby)
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:25
+#, no-wrap
+msgid ""
+" # config/application.rb\n"
+" config.autoload_lib(ignore: %w(assets tasks))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:32
+#, markdown-text
+msgid ""
+"Normally, the `lib` directory has subdirectories that should not be "
+"autoloaded or eager loaded.  This new method allows you to specify which "
+"subdirectories to be autoloaded as needed."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:34
+#, markdown-text
+msgid ""
+"Read more about this new feature in the [autoloading "
+"guide](https://guides.rubyonrails.org/v7.1/autoloading_and_reloading_constants.html)."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:36
+#, markdown-text
+msgid ""
+"[Introduce "
+"config.autoload_lib_once](https://github.com/rails/rails/pull/48610)"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:39
+#, markdown-text
+msgid ""
+"The method `config.autoload_lib_once(ignore:)` is similar to "
+"`config.autoload_lib` introduced above, except that it adds lib to "
+"`config.autoload_once_paths` instead."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:42
+#, markdown-text
+msgid ""
+"By calling `config.autoload_lib_once`, classes and modules in `lib` can be "
+"autoloaded, even from application initializers, but won't be reloaded."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:43
+#, markdown-text, no-wrap
+msgid ""
+"[Bounce emails can now be sent with "
+"deliver_now](https://github.com/rails/rails/pull/48446)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:46
+#, markdown-text
+msgid ""
+"This change adds `bounce_now_with` to `ActionMailbox`.  This is useful when "
+"you want to send the bounce email immediately, instead of going through the "
+"mailer queue-"
+msgstr ""
+
+#. type: Fenced code block (ruby)
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:47
+#, no-wrap
+msgid ""
+" # Enqueues the bounce email\n"
+"MyMailbox.bounce_with MyMailer.my_method(args)\n"
+"\n"
+"# Delivers the email immediately\n"
+"MyMailbox.bounce_now_with MyMailer.my_method(args)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:55
+#, markdown-text, no-wrap
+msgid ""
+"[DATABASE option for "
+"railties:install:migrations](https://github.com/rails/rails/pull/48579)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:57
+#, markdown-text
+msgid ""
+"This change adds a new `DATABASE` option to `railties:install:migrations` "
+"task."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:59
+#, markdown-text
+msgid ""
+"This allows us to specify which database the migrations should be copied to "
+"when running `rails railties:install:migrations` in engines-"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:60
+#, no-wrap
+msgid "$ rails railties:install:migrations DATABASE=animals\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:64
+#, markdown-text, no-wrap
+msgid ""
+"[Active Record encryption support for decrypting data previously encrypted "
+"non-deterministically](https://github.com/rails/rails/pull/48530)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:66
+#, markdown-text
+msgid ""
+"This change adds support to decrypting data encrypted non-deterministically "
+"with a `SHA1` hash digest."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:68
+#, markdown-text
+msgid ""
+"It adds a new Active Record encryption option to support decrypting data "
+"encrypted non-deterministically with a SHA1 hash digest:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:69
+#, no-wrap
+msgid ""
+"Rails.application.config.active_record.encryption.support_sha1_for_non_deterministic_encryption "
+"= true\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:74
+#, markdown-text
+msgid ""
+"It addresses a problem when upgrading from 7.0 to 7.1 where SHA-1 was being "
+"used as its digest class instead of global one."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:75
+#, markdown-text, no-wrap
+msgid ""
+"[Add :report behavior to "
+"ActiveSupport::Deprecation](https://github.com/rails/rails/pull/48578)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:77
+#, markdown-text
+msgid "This change adds a `:report` behavior for `ActiveSupport::Deprecation`."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:79
+#, markdown-text
+msgid ""
+"Setting `config.active_support.deprecation = :report` uses the error "
+"reporter to report deprecation warnings to `ActiveSupport::ErrorReporter`."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:81
+#, markdown-text
+msgid ""
+"This is useful to report deprecations happening in production to bug "
+"trackers, instead of them being logged silently."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:83
+#, markdown-text, no-wrap
+msgid ""
+"_You can view the complete list of changes "
+"[here](https://github.com/rails/rails/compare/@%7B2023-06-24%7D...main@%7B2023-06-30%7D)._  "
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:85
+#, markdown-text
+msgid ""
+"_We had [25 "
+"contributors](https://contributors.rubyonrails.org/contributors/in-time-window/20230624-20230630) "
+"to the Rails codebase this past week!_"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:87
+#, markdown-text, no-wrap
+msgid "Happy Friday again! Until next time :-)   \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:88
+#, markdown-text
+msgid ""
+"_[Subscribe](https://world.hey.com/this.week.in.rails) to get these updates "
+"mailed to you._"
 msgstr ""
