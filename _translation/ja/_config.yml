@@ -1,3 +1,4 @@
 theme: minima
 plugins:
   - jekyll-feed
+url: https://gemmaro.github.io
