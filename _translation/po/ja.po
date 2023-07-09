@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Ruby on Rails website\n"
-"POT-Creation-Date: 2023-07-05 20:33+0900\n"
-"PO-Revision-Date: 2023-07-05 21:37+0900\n"
+"POT-Creation-Date: 2023-07-10 11:34+0900\n"
+"PO-Revision-Date: 2023-07-10 12:43+0900\n"
 "Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -15,41 +15,194 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: author
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
+#, no-wrap
+msgid "zzak"
+msgstr "zzak"
+
+#. type: YAML Front Matter: categories
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
+#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "news"
+msgstr "お知らせ"
+
+#. type: YAML Front Matter: date
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
+#, no-wrap
+msgid "2023-06-16"
+msgstr "2023-06-16"
+
+#. type: YAML Front Matter: layout
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
+#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
+#: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
+#: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "post"
+msgstr "post"
+
+#. type: YAML Front Matter: published
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
+#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
+#: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
+#: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "true"
+msgstr "true"
+
+#. type: YAML Front Matter: title
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
+#, no-wrap
+msgid "This Week in Rails - June 16, 2023"
+msgstr "今週のRails - 2023年6月16日"
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:12
+msgid ""
+"Hi, it's [zzak](https://github.com/zzak). We're officially half-way through "
+"June, and we've got a shorter edition this week but let's hop in."
+msgstr ""
+"どうも、[zzak](https://github.com/zzak)です。\n"
+"公式では6月半ばにあり、今週に短縮版がありましたが、ともかく始めましょう。"
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:13
+#, no-wrap
+msgid "[Enable force_ssl=true in production by default](https://github.com/rails/rails/pull/47852)  \n"
+msgstr "[実運用環境でforce_ssl=trueを既定で有効化](https://github.com/rails/rails/pull/47852)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:14
+#, no-wrap
+msgid "This PR affects newly generated apps to make SSL enforcement the default behavior in production mode, ensuring all access to the application occurs over SSL, with Strict-Transport-Security and use secure cookies.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:16
+#, no-wrap
+msgid "[Adding PG enum drop, rename, add value, rename value](https://github.com/rails/rails/pull/44898)  \n"
+msgstr "[PG列挙型の値のdrop、rename、addと値の改名を追加](https://github.com/rails/rails/pull/44898)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:17
+#, no-wrap
+msgid "Initially opened over a year ago, this PR has finally been merged and adds `rename_enum`, `rename_enum_value`, and `add_enum_value` support to the PostgreSQL adapter.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:19
+#, no-wrap
+msgid "[Fix setting inverses for composite primary key associations](https://github.com/rails/rails/pull/48484)  \n"
+msgstr "[複合主キーの関係で逆向きの設定を修正](https://github.com/rails/rails/pull/48484)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:20
+#, no-wrap
+msgid "This bug fix for models using the [`inverse_of` option](https://guides.rubyonrails.org/association_basics.html#options-for-belongs-to-inverse-of) which caused the related record not to be saved when using composite primary keys.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:22
+#, no-wrap
+msgid "[Fix \"destroy_all\" for \"has_many through:\" associations that points to a CPK model](https://github.com/rails/rails/pull/48474)  \n"
+msgstr "[CPKモデルを指す \"has_many through:\" 関係用の \"destroy_all\" を修正](https://github.com/rails/rails/pull/48474)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:23
+#, no-wrap
+msgid "Another bug fix for composite primary keys was affecting `destroy_all` when using the [`has_many through:` association](https://guides.rubyonrails.org/association_basics.html#the-has-many-through-association) that points to a model with composite primary key.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:26
+#, no-wrap
+msgid "[Store \"secret_key_base\" in \"Rails.config\" for local environments.](https://github.com/rails/rails/pull/48470)  \n"
+msgstr "[ローカル環境用に \"Rails.config\" に \"store_key_base\" を格納。](https://github.com/rails/rails/pull/48470)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:27
+#, no-wrap
+msgid "Since `secrets` have been [deprecated](https://github.com/rails/rails/pull/47801) in favor of `credentials`, this PR removes the last dependency for local environments by using `Rails.config.secret_key_base` instead of `Rails.application.secrets.secret_key_base`.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:29
+#, no-wrap
+msgid "[Deprecate calling \"Rails.application.secrets\"](https://github.com/rails/rails/pull/48472)  \n"
+msgstr "[\"Rails.application.secrets\" の呼び出しを非推奨に](https://github.com/rails/rails/pull/48472)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:30
+#, no-wrap
+msgid "With the last PR merged a deprecation warning will now show up when you call `Rails.application.secrets`, instead you should use `Rails.application.credentials`.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:32
+#, no-wrap
+msgid "[Use cache \":coder\" option to specify \":message_pack\"](https://github.com/rails/rails/pull/48449)  \n"
+msgstr "[\":message_pack\" を設定するためにキャッシュ用の \":coder\" オプションを使用](https://github.com/rails/rails/pull/48449)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:33
+#, no-wrap
+msgid "This PR removes the unreleased `:message_pack` option from `config.active_support.cache_format_version` and instead provides a new `:coder` option to the `config.cache_store` flag.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:36
+#, no-wrap
+msgid "_You can view the whole list of changes [here](https://github.com/rails/rails/compare/@%7B2023-06-09%7D...main@%7B2023-06-16%7D)._  \n"
+msgstr "*変更の全一覧については[こちらをご覧下さい](https://github.com/rails/rails/compare/@%7B2023-06-09%7D...main@%7B2023-06-16%7D)。*  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:38
+msgid ""
+"_We had [24 contributors](https://contributors.rubyonrails.org/contributors/"
+"in-time-window/20230609-20230616) to the Rails codebase this past week!_"
+msgstr ""
+"*この1週間に[24名の方々](https://contributors.rubyonrails.org/contributors/"
+"in-time-window/20230609-20230616)からRailsのコードベースに貢献していただきま"
+"した！*"
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:39
+#: ../_posts/2023-06-23-this-week-in-rails.markdown:73
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:47
+#, no-wrap
+msgid "Until next time!  \n"
+msgstr "また次回！  \n"
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:41
+#: ../_posts/2023-06-23-this-week-in-rails.markdown:75
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:88
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:49
+msgid ""
+"_[Subscribe](https://world.hey.com/this.week.in.rails) to get these updates "
+"mailed to you._"
+msgstr ""
+"_[購読](https://world.hey.com/this.week.in.rails)するとこうした更新をメールで"
+"受け取れます。_"
+
+#. type: YAML Front Matter: author
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "gregmolnar"
 msgstr "gregmolnar"
-
-#. type: YAML Front Matter: categories
-#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
-#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
-#, no-wrap
-msgid "news"
-msgstr "お知らせ"
 
 #. type: YAML Front Matter: date
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "2023-06-23"
 msgstr "2023-06-23"
-
-#. type: YAML Front Matter: layout
-#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
-#: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
-#: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
-#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
-#, no-wrap
-msgid "post"
-msgstr "post"
-
-#. type: YAML Front Matter: published
-#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
-#: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
-#: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
-#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
-#, no-wrap
-msgid "true"
-msgstr "true"
 
 #. type: YAML Front Matter: title
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:1
@@ -82,8 +235,11 @@ msgid ""
 "under the mentorship of [Ayush Newatia](https://radioactivetoy.tech/)."
 msgstr ""
 "Rails Worldカンファレンスのウェブサイトが本日より公開されました。\n"
-"こちらはRailsコミュニティの若手開発者の[Shona Chan](https://www.linkedin.com/in/shona-chan/)により製作されました。\n"
-"Rails Foundationから委託されたもので、[Katya Sitko](https://katya-sitko.netlify.app/)により設計され、[Ayush Newatia](https://radioactivetoy.tech/)の指導の下で製作されました。"
+"こちらはRailsコミュニティの若手開発者の[Shona Chan](https://www.linkedin.com/"
+"in/shona-chan/)により製作されました。\n"
+"Rails Foundationから委託されたもので、[Katya Sitko](https://katya-sitko."
+"netlify.app/)により設計され、[Ayush Newatia](https://radioactivetoy.tech/)の"
+"指導の下で製作されました。"
 
 #. type: Plain text
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:17
@@ -98,7 +254,8 @@ msgid ""
 "with a limited run of Early Bird tickets. Try not to miss it and see you in "
 "Amsterdam!"
 msgstr ""
-"Rails Worldのチケット販売について、枚数限定のアーリーバードチケットを皮切りに、本日6月23日金曜日の中央ヨーロッパ夏時間午後5時に始まりました。\n"
+"Rails Worldのチケット販売について、枚数限定のアーリーバードチケットを皮切り"
+"に、本日6月23日金曜日の中央ヨーロッパ夏時間午後5時に始まりました。\n"
 "この機会をお見逃しなく、アムステルダムでお会いしましょう！"
 
 #. type: Plain text
@@ -133,8 +290,11 @@ msgid ""
 "iterate through foreign key columns and nullify them if they don't belong to "
 "the model's primary keys."
 msgstr ""
-"このプルリクエストが作成されたのは、`has_one`複合主キー (CPK) の`dependent: :nullify`を伴う関係が壊れていたためです。\n"
-"`ActiveRecord::Associations::HasOneAssociation`のnull化コードを変更し、外部キーカラムを巡回してモデルの主キーに属さない場合はnull化するようにしています。"
+"このプルリクエストが作成されたのは、`has_one`複合主キー (CPK) の`dependent: :"
+"nullify`を伴う関係が壊れていたためです。\n"
+"`ActiveRecord::Associations::HasOneAssociation`のnull化コードを変更し、外部"
+"キーカラムを巡回してモデルの主キーに属さない場合はnull化するようにしていま"
+"す。"
 
 #. type: Plain text
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:26
@@ -151,7 +311,8 @@ msgid ""
 msgstr ""
 "この変更では`id`をActive Recordの列挙値として禁止しています。\n"
 "これは、期待されていないジョインと副問い合わせを誘発しかねないからです。\n"
-"それでも使いたい場合は`\\_prefix`ないし`\\_suffix`オプションを設定すればできます。"
+"それでも使いたい場合は`\\_prefix`ないし`\\_suffix`オプションを設定すればでき"
+"ます。"
 
 #. type: Plain text
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:29
@@ -166,8 +327,11 @@ msgid ""
 "available, and to parse markup using `Nokogiri::HTML5` when available. "
 "Previously, Action Text used Nokogiri's HTML4 parsers for these operations."
 msgstr ""
-"このプルリクエストは可能な場合にAction TextがHTML5サニタイザを使い、また可能な場合に`Nokogiri::HTML5`を使ってマークアップを構文解析するよう更新しています。\n"
-"これまで、Action Textはこうした操作にNokogiriのHTML4構文解析器を使っていました。"
+"このプルリクエストは可能な場合にAction TextがHTML5サニタイザを使い、また可能"
+"な場合に`Nokogiri::HTML5`を使ってマークアップを構文解析するよう更新していま"
+"す。\n"
+"これまで、Action Textはこうした操作にNokogiriのHTML4構文解析器を使っていまし"
+"た。"
 
 #. type: Plain text
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:32
@@ -185,10 +349,14 @@ msgid ""
 "[MessageEncryptor](https://github.com/rails/rails/pull/48499) and "
 "[EncryptedConfiguration](https://github.com/rails/rails/pull/48498)"
 msgstr ""
-"`Rails.application.config#inspect`を呼び出すと全ての属性を表示していましたが、それには`secret_key_base`も含まれていました。\n"
-"本プルリクエストでは`inspect`メソッドをオーバーライドしてクラス名のみ表示するようにしています。\n"
+"`Rails.application.config#inspect`を呼び出すと全ての属性を表示していました"
+"が、それには`secret_key_base`も含まれていました。\n"
+"本プルリクエストでは`inspect`メソッドをオーバーライドしてクラス名のみ表示する"
+"ようにしています。\n"
 "これにより意図せず機密情報を出力してしまうことを避けるのに役立ちます。\n"
-"同じ変更は[MessageEncryptor](https://github.com/rails/rails/pull/48499)と[EncryptedConfiguration](https://github.com/rails/rails/pull/48498)でもなされています。"
+"同じ変更は[MessageEncryptor](https://github.com/rails/rails/pull/48499)と"
+"[EncryptedConfiguration](https://github.com/rails/rails/pull/48498)でもなされ"
+"ています。"
 
 #. type: Plain text
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:36
@@ -256,7 +424,10 @@ msgid ""
 "This pull request changes join dependency assignment to properly handle "
 "nodes with composite primary keys to fix eager loading models and "
 "associations with composite primary keys."
-msgstr "このプルリクエストでは、モデルの積極読み込みと複合主キーとの関係を修正する上で、複合主キーを伴うノードを適切に扱うための依存代入のジョインを変更しています。"
+msgstr ""
+"このプルリクエストでは、モデルの積極読み込みと複合主キーとの関係を修正する上"
+"で、複合主キーを伴うノードを適切に扱うための依存代入のジョインを変更していま"
+"す。"
 
 #. type: Plain text
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:54
@@ -273,7 +444,9 @@ msgid ""
 "where we actually want the id column value. By changing `has_one` autosaving "
 "to use `_read_attribute` instead of `public_send` it won't use the `#id` "
 "accessor."
-msgstr "このプルリクエストでは、複合主キーモデルの関係上の主キーが`:id`に設定された場合に、そのモデルが適切に自動保存されない問題を修正しています。"
+msgstr ""
+"このプルリクエストでは、複合主キーモデルの関係上の主キーが`:id`に設定された場"
+"合に、そのモデルが適切に自動保存されない問題を修正しています。"
 
 #. type: Plain text
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:57
@@ -325,23 +498,10 @@ msgstr "*変更の全一覧については[こちらをご覧下さい](https://
 msgid ""
 "_We had [21 contributors](https://contributors.rubyonrails.org/contributors/"
 "in-time-window/20230616-20230623) to the Rails codebase this past week!_"
-msgstr "*この1週間に[21名の方々](https://contributors.rubyonrails.org/contributors/in-time-window/20230616-20230623)からRailsのコードベースに貢献していただきました！*"
-
-#. type: Plain text
-#: ../_posts/2023-06-23-this-week-in-rails.markdown:73
-#, no-wrap
-msgid "Until next time!  \n"
-msgstr "また次回！  \n"
-
-#. type: Plain text
-#: ../_posts/2023-06-23-this-week-in-rails.markdown:75
-#: ../_posts/2023-06-30-this-week-in-rails.markdown:88
-msgid ""
-"_[Subscribe](https://world.hey.com/this.week.in.rails) to get these updates "
-"mailed to you._"
 msgstr ""
-"_[購読](https://world.hey.com/this.week.in.rails)するとこうした更新をメールで"
-"受け取れます。_"
+"*この1週間に[21名の方々](https://contributors.rubyonrails.org/contributors/"
+"in-time-window/20230616-20230623)からRailsのコードベースに貢献していただきま"
+"した！*"
 
 #. type: YAML Front Matter: author
 #: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
@@ -940,3 +1100,167 @@ msgstr ""
 #, no-wrap
 msgid "Happy Friday again! Until next time :-)   \n"
 msgstr "良い金曜日をお過ごし下さい！また次回をお楽しみに :-)   \n"
+
+#. type: YAML Front Matter: author
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "wojtek"
+msgstr "wojtek"
+
+#. type: YAML Front Matter: date
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "2023-07-07"
+msgstr "2023-07-07"
+
+#. type: YAML Front Matter: title
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "Preprocessed Active Storage variants and more"
+msgstr "前処理されたActive Storageの変種などなど"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:11
+msgid ""
+"Hi, [Wojtek](https://twitter.com/morgoth85) here. Let's see what changed in "
+"the Rails codebase."
+msgstr ""
+"どうも、こちら[Wojtek](https://twitter.com/morgoth85)です。\n"
+"Railsのコードベースで何が変わったか見てみましょう。"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:12
+#, no-wrap
+msgid "[Add an option to preprocess Active Storage variants in background job](https://github.com/rails/rails/pull/47473)  \n"
+msgstr "[バックグラウンドのジョブでActive Storageの変種を前処理するオプションを追加](https://github.com/rails/rails/pull/47473)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:14
+msgid ""
+"Active Storage variants are processed on the fly when they are needed but "
+"sometimes we're sure that they are accessed and want to process them upfront."
+msgstr ""
+"Active Storageの変種 (variant) は必要なときにその場で処理されます。\n"
+"しかしこれらがアクセス済みであれば予め処理しておきたいことがあります。"
+
+#. type: Fenced code block (ruby)
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:14
+#, no-wrap
+msgid ""
+"class User < ApplicationRecord\n"
+"  has_one_attached :avatar do |attachable|\n"
+"    attachable.variant :thumb, resize_to_limit: [100, 100], preprocessed: true\n"
+"  end\n"
+"end\n"
+msgstr ""
+"class User < ApplicationRecord\n"
+"  has_one_attached :avatar do |attachable|\n"
+"    attachable.variant :thumb, resize_to_limit: [100, 100], preprocessed: true\n"
+"  end\n"
+"end\n"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:22
+#, no-wrap
+msgid "[Introduce sanitizer_vendor config for Action Text](https://github.com/rails/rails/pull/48644)  \n"
+msgstr "[Action Textに構成sanitizer_vendorを導入](https://github.com/rails/rails/pull/48644)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:25
+msgid ""
+"Use `Rails::HTML5::SafeListSanitizer` by default in the Rails 7.1 "
+"configuration if it is supported.  Action Text's sanitizer can be configured "
+"by setting `config.action_text.sanitizer_vendor`."
+msgstr ""
+"対応している場合、既定のRails 7.1の構成で`Rails::HTML5::SafeListSanitizer`を使用します。\n"
+"Active Textのサニタイザは`config.action_text.sanitizer_vendor`を設定して構成できます。"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:26
+#, no-wrap
+msgid "[Improve performance of ActiveSupport::JSON.encode](https://github.com/rails/rails/pull/48614)  \n"
+msgstr "[ActiveSupport::JSON.encodeの効率を向上](https://github.com/rails/rails/pull/48614)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:28
+msgid ""
+"This about doubles the performance of `.to_json`/`ActiveSupport::JSON."
+"encode`. The benchmarks are included in the pull request."
+msgstr ""
+"`.to_json`/`ActiveSupport::JSON.encode`の性能が約2倍になります。\n"
+"プルリクエストにベンチマークが含まれています。"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:29
+#, no-wrap
+msgid "[Allow opting in/out of `Link preload` headers when calling `stylesheet_link_tag` or `javascript_include_tag`](https://github.com/rails/rails/pull/48553)  \n"
+msgstr "[`stylesheet_link_tag`ないし`javascript_include_tag`が呼ばれたときに`Link preload`ヘッダのオプトイン・オプトアウトができるようにします](https://github.com/rails/rails/pull/48553)  \n"
+
+#. type: Fenced code block (ruby)
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:30
+#, no-wrap
+msgid ""
+"# will exclude header, even if setting is enabled:\n"
+"javascript_include_tag(\"http://example.com/all.js\", preload_links_header: false)\n"
+msgstr ""
+"# 設定で有効でもヘッダを除外\n"
+"javascript_include_tag(\"http://example.com/all.js\", preload_links_header: false)\n"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:35
+#, no-wrap
+msgid "[Disable database prepared statements when query logs are enabled](https://github.com/rails/rails/pull/48631)  \n"
+msgstr "[クエリログが有効の場合にデータベースのプリペアドステートメントを無効化](https://github.com/rails/rails/pull/48631)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:37
+msgid ""
+"Prepared statements and query logs are incompatible features due to query "
+"logs making every query unique so Active Record will create a new prepared "
+"statement for each, potentially exhausting system resources."
+msgstr ""
+"プリペアドステートメントとクエリログの両機能は釣り合いが取れません。\n"
+"クエリログは全てのクエリを一意なものにし、Active Recordはそれぞれについて新しいプリペアドステートメントを作成するためです。\n"
+"これによりシステムリソースの枯渇を招く可能性がありました。"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:38
+#, no-wrap
+msgid "[Fix has_one through singular building with inverse](https://github.com/rails/rails/pull/48674)  \n"
+msgstr "[逆向きに単一の構築を経由するhas_oneを修正](https://github.com/rails/rails/pull/48674)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:40
+msgid ""
+"Allows building of records from an association with a _has_one_ through a "
+"singular association with inverse. For _belongs_to_ through associations, "
+"linking the foreign key to the primary key model isn't needed."
+msgstr ""
+"逆向きに単一の関係を経由する*has_one*を持つ関係からレコードが構築できるようになりました。\n"
+"関係を経由する*belongs_to*において外部キーを主キーのモデルに紐付ける必要はありません。"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:41
+#, no-wrap
+msgid "[Don't double-encode nested `field_id` and `field_name` index](https://github.com/rails/rails/pull/47436)  \n"
+msgstr "[入れ子の`field_id`と`field_name`のインデックスを二重にエンコードしないようにする](https://github.com/rails/rails/pull/47436)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:43
+msgid ""
+"This fixes the bug with adding an extra index parameter in form builder for "
+"deeply nested associations."
+msgstr "これは、深く入れ子になった関係に対しフォーム構築子に余剰のインデックス引数を追加していた不具合を修正しています。"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:44
+#, no-wrap
+msgid "_You can view the whole list of changes [here](https://github.com/rails/rails/compare/@%7B2023-06-30%7D...main@%7B2023-07-07%7D)._  \n"
+msgstr "*変更の全一覧については[こちらをご覧下さい](https://github.com/rails/rails/compare/@%7B2023-06-30%7D...main@%7B2023-07-07%7D)。*  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:46
+msgid ""
+"_We had [24 contributors](https://contributors.rubyonrails.org/contributors/"
+"in-time-window/20230630-20230707) to the Rails codebase this past week!_"
+msgstr "*この1週間に[24名の方々](https://contributors.rubyonrails.org/contributors/in-time-window/20230630-20230707)からRailsのコードベースに貢献していただきました！*"

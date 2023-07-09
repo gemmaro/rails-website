@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-07-05 20:33+0900\n"
+"POT-Creation-Date: 2023-07-10 11:34+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,40 +17,233 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: author
-#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
 #, no-wrap
-msgid "gregmolnar"
+msgid "zzak"
 msgstr ""
 
 #. type: YAML Front Matter: categories
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:1
 #: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "news"
+msgstr ""
+
+#. type: YAML Front Matter: date
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
+#, no-wrap
+msgid "2023-06-16"
+msgstr ""
+
+#. type: YAML Front Matter: layout
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
+#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
+#: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
+#: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "post"
+msgstr ""
+
+#. type: YAML Front Matter: published
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
+#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
+#: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
+#: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "true"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
+#, no-wrap
+msgid "This Week in Rails - June 16, 2023"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:12
+#, markdown-text
+msgid ""
+"Hi, it's [zzak](https://github.com/zzak). We're officially half-way through "
+"June, and we've got a shorter edition this week but let's hop in."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:13
+#, markdown-text, no-wrap
+msgid ""
+"[Enable force_ssl=true in production by "
+"default](https://github.com/rails/rails/pull/47852)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:14
+#, markdown-text, no-wrap
+msgid ""
+"This PR affects newly generated apps to make SSL enforcement the default "
+"behavior in production mode, ensuring all access to the application occurs "
+"over SSL, with Strict-Transport-Security and use secure cookies.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:16
+#, markdown-text, no-wrap
+msgid ""
+"[Adding PG enum drop, rename, add value, rename "
+"value](https://github.com/rails/rails/pull/44898)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:17
+#, markdown-text, no-wrap
+msgid ""
+"Initially opened over a year ago, this PR has finally been merged and adds "
+"`rename_enum`, `rename_enum_value`, and `add_enum_value` support to the "
+"PostgreSQL adapter.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:19
+#, markdown-text, no-wrap
+msgid ""
+"[Fix setting inverses for composite primary key "
+"associations](https://github.com/rails/rails/pull/48484)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:20
+#, markdown-text, no-wrap
+msgid ""
+"This bug fix for models using the [`inverse_of` "
+"option](https://guides.rubyonrails.org/association_basics.html#options-for-belongs-to-inverse-of) "
+"which caused the related record not to be saved when using composite primary "
+"keys.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:22
+#, markdown-text, no-wrap
+msgid ""
+"[Fix \"destroy_all\" for \"has_many through:\" associations that points to a "
+"CPK model](https://github.com/rails/rails/pull/48474)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:23
+#, markdown-text, no-wrap
+msgid ""
+"Another bug fix for composite primary keys was affecting `destroy_all` when "
+"using the [`has_many through:` "
+"association](https://guides.rubyonrails.org/association_basics.html#the-has-many-through-association) "
+"that points to a model with composite primary key.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:26
+#, markdown-text, no-wrap
+msgid ""
+"[Store \"secret_key_base\" in \"Rails.config\" for local "
+"environments.](https://github.com/rails/rails/pull/48470)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:27
+#, markdown-text, no-wrap
+msgid ""
+"Since `secrets` have been "
+"[deprecated](https://github.com/rails/rails/pull/47801) in favor of "
+"`credentials`, this PR removes the last dependency for local environments by "
+"using `Rails.config.secret_key_base` instead of "
+"`Rails.application.secrets.secret_key_base`.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:29
+#, markdown-text, no-wrap
+msgid ""
+"[Deprecate calling "
+"\"Rails.application.secrets\"](https://github.com/rails/rails/pull/48472)  "
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:30
+#, markdown-text, no-wrap
+msgid ""
+"With the last PR merged a deprecation warning will now show up when you call "
+"`Rails.application.secrets`, instead you should use "
+"`Rails.application.credentials`.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:32
+#, markdown-text, no-wrap
+msgid ""
+"[Use cache \":coder\" option to specify "
+"\":message_pack\"](https://github.com/rails/rails/pull/48449)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:33
+#, markdown-text, no-wrap
+msgid ""
+"This PR removes the unreleased `:message_pack` option from "
+"`config.active_support.cache_format_version` and instead provides a new "
+"`:coder` option to the `config.cache_store` flag.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:36
+#, markdown-text, no-wrap
+msgid ""
+"_You can view the whole list of changes "
+"[here](https://github.com/rails/rails/compare/@%7B2023-06-09%7D...main@%7B2023-06-16%7D)._  "
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:38
+#, markdown-text
+msgid ""
+"_We had [24 "
+"contributors](https://contributors.rubyonrails.org/contributors/in-time-window/20230609-20230616) "
+"to the Rails codebase this past week!_"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:39
+#: ../_posts/2023-06-23-this-week-in-rails.markdown:73
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:47
+#, markdown-text, no-wrap
+msgid "Until next time!  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-16-this-week-in-rails-.markdown:41
+#: ../_posts/2023-06-23-this-week-in-rails.markdown:75
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:88
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:49
+#, markdown-text
+msgid ""
+"_[Subscribe](https://world.hey.com/this.week.in.rails) to get these updates "
+"mailed to you._"
+msgstr ""
+
+#. type: YAML Front Matter: author
+#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "gregmolnar"
 msgstr ""
 
 #. type: YAML Front Matter: date
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "2023-06-23"
-msgstr ""
-
-#. type: YAML Front Matter: layout
-#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
-#: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
-#: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
-#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
-#, no-wrap
-msgid "post"
-msgstr ""
-
-#. type: YAML Front Matter: published
-#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
-#: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
-#: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
-#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
-#, no-wrap
-msgid "true"
 msgstr ""
 
 #. type: YAML Front Matter: title
@@ -340,21 +533,6 @@ msgid ""
 "_We had [21 "
 "contributors](https://contributors.rubyonrails.org/contributors/in-time-window/20230616-20230623) "
 "to the Rails codebase this past week!_"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-23-this-week-in-rails.markdown:73
-#, markdown-text, no-wrap
-msgid "Until next time!  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-23-this-week-in-rails.markdown:75
-#: ../_posts/2023-06-30-this-week-in-rails.markdown:88
-#, markdown-text
-msgid ""
-"_[Subscribe](https://world.hey.com/this.week.in.rails) to get these updates "
-"mailed to you._"
 msgstr ""
 
 #. type: YAML Front Matter: author
@@ -887,4 +1065,179 @@ msgstr ""
 #: ../_posts/2023-06-30-this-week-in-rails.markdown:87
 #, markdown-text, no-wrap
 msgid "Happy Friday again! Until next time :-)   \n"
+msgstr ""
+
+#. type: YAML Front Matter: author
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "wojtek"
+msgstr ""
+
+#. type: YAML Front Matter: date
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "2023-07-07"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "Preprocessed Active Storage variants and more"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:11
+#, markdown-text
+msgid ""
+"Hi, [Wojtek](https://twitter.com/morgoth85) here. Let's see what changed in "
+"the Rails codebase."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:12
+#, markdown-text, no-wrap
+msgid ""
+"[Add an option to preprocess Active Storage variants in background "
+"job](https://github.com/rails/rails/pull/47473)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:14
+#, markdown-text
+msgid ""
+"Active Storage variants are processed on the fly when they are needed but "
+"sometimes we're sure that they are accessed and want to process them "
+"upfront."
+msgstr ""
+
+#. type: Fenced code block (ruby)
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:14
+#, no-wrap
+msgid ""
+"class User < ApplicationRecord\n"
+"  has_one_attached :avatar do |attachable|\n"
+"    attachable.variant :thumb, resize_to_limit: [100, 100], preprocessed: "
+"true\n"
+"  end\n"
+"end\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:22
+#, markdown-text, no-wrap
+msgid ""
+"[Introduce sanitizer_vendor config for Action "
+"Text](https://github.com/rails/rails/pull/48644)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:25
+#, markdown-text
+msgid ""
+"Use `Rails::HTML5::SafeListSanitizer` by default in the Rails 7.1 "
+"configuration if it is supported.  Action Text's sanitizer can be configured "
+"by setting `config.action_text.sanitizer_vendor`."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:26
+#, markdown-text, no-wrap
+msgid ""
+"[Improve performance of "
+"ActiveSupport::JSON.encode](https://github.com/rails/rails/pull/48614)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:28
+#, markdown-text
+msgid ""
+"This about doubles the performance of "
+"`.to_json`/`ActiveSupport::JSON.encode`. The benchmarks are included in the "
+"pull request."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:29
+#, markdown-text, no-wrap
+msgid ""
+"[Allow opting in/out of `Link preload` headers when calling "
+"`stylesheet_link_tag` or "
+"`javascript_include_tag`](https://github.com/rails/rails/pull/48553)  \n"
+msgstr ""
+
+#. type: Fenced code block (ruby)
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:30
+#, no-wrap
+msgid ""
+"# will exclude header, even if setting is enabled:\n"
+"javascript_include_tag(\"http://example.com/all.js\", preload_links_header: "
+"false)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:35
+#, markdown-text, no-wrap
+msgid ""
+"[Disable database prepared statements when query logs are "
+"enabled](https://github.com/rails/rails/pull/48631)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:37
+#, markdown-text
+msgid ""
+"Prepared statements and query logs are incompatible features due to query "
+"logs making every query unique so Active Record will create a new prepared "
+"statement for each, potentially exhausting system resources."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:38
+#, markdown-text, no-wrap
+msgid ""
+"[Fix has_one through singular building with "
+"inverse](https://github.com/rails/rails/pull/48674)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:40
+#, markdown-text
+msgid ""
+"Allows building of records from an association with a _has_one_ through a "
+"singular association with inverse. For _belongs_to_ through associations, "
+"linking the foreign key to the primary key model isn't needed."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:41
+#, markdown-text, no-wrap
+msgid ""
+"[Don't double-encode nested `field_id` and `field_name` "
+"index](https://github.com/rails/rails/pull/47436)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:43
+#, markdown-text
+msgid ""
+"This fixes the bug with adding an extra index parameter in form builder for "
+"deeply nested associations."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:44
+#, markdown-text, no-wrap
+msgid ""
+"_You can view the whole list of changes "
+"[here](https://github.com/rails/rails/compare/@%7B2023-06-30%7D...main@%7B2023-07-07%7D)._  "
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:46
+#, markdown-text
+msgid ""
+"_We had [24 "
+"contributors](https://contributors.rubyonrails.org/contributors/in-time-window/20230630-20230707) "
+"to the Rails codebase this past week!_"
 msgstr ""
