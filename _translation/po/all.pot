@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-07-10 11:34+0900\n"
+"POT-Creation-Date: 2023-07-24 07:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,233 +17,46 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: author
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
-#, no-wrap
-msgid "zzak"
-msgstr ""
-
-#. type: YAML Front Matter: categories
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
-#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
-#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
-#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
-#, no-wrap
-msgid "news"
-msgstr ""
-
-#. type: YAML Front Matter: date
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
-#, no-wrap
-msgid "2023-06-16"
-msgstr ""
-
-#. type: YAML Front Matter: layout
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
-#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
-#: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
-#: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
-#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
-#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
-#, no-wrap
-msgid "post"
-msgstr ""
-
-#. type: YAML Front Matter: published
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
-#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
-#: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
-#: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
-#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
-#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
-#, no-wrap
-msgid "true"
-msgstr ""
-
-#. type: YAML Front Matter: title
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:1
-#, no-wrap
-msgid "This Week in Rails - June 16, 2023"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:12
-#, markdown-text
-msgid ""
-"Hi, it's [zzak](https://github.com/zzak). We're officially half-way through "
-"June, and we've got a shorter edition this week but let's hop in."
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:13
-#, markdown-text, no-wrap
-msgid ""
-"[Enable force_ssl=true in production by "
-"default](https://github.com/rails/rails/pull/47852)  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:14
-#, markdown-text, no-wrap
-msgid ""
-"This PR affects newly generated apps to make SSL enforcement the default "
-"behavior in production mode, ensuring all access to the application occurs "
-"over SSL, with Strict-Transport-Security and use secure cookies.  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:16
-#, markdown-text, no-wrap
-msgid ""
-"[Adding PG enum drop, rename, add value, rename "
-"value](https://github.com/rails/rails/pull/44898)  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:17
-#, markdown-text, no-wrap
-msgid ""
-"Initially opened over a year ago, this PR has finally been merged and adds "
-"`rename_enum`, `rename_enum_value`, and `add_enum_value` support to the "
-"PostgreSQL adapter.  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:19
-#, markdown-text, no-wrap
-msgid ""
-"[Fix setting inverses for composite primary key "
-"associations](https://github.com/rails/rails/pull/48484)  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:20
-#, markdown-text, no-wrap
-msgid ""
-"This bug fix for models using the [`inverse_of` "
-"option](https://guides.rubyonrails.org/association_basics.html#options-for-belongs-to-inverse-of) "
-"which caused the related record not to be saved when using composite primary "
-"keys.  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:22
-#, markdown-text, no-wrap
-msgid ""
-"[Fix \"destroy_all\" for \"has_many through:\" associations that points to a "
-"CPK model](https://github.com/rails/rails/pull/48474)  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:23
-#, markdown-text, no-wrap
-msgid ""
-"Another bug fix for composite primary keys was affecting `destroy_all` when "
-"using the [`has_many through:` "
-"association](https://guides.rubyonrails.org/association_basics.html#the-has-many-through-association) "
-"that points to a model with composite primary key.  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:26
-#, markdown-text, no-wrap
-msgid ""
-"[Store \"secret_key_base\" in \"Rails.config\" for local "
-"environments.](https://github.com/rails/rails/pull/48470)  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:27
-#, markdown-text, no-wrap
-msgid ""
-"Since `secrets` have been "
-"[deprecated](https://github.com/rails/rails/pull/47801) in favor of "
-"`credentials`, this PR removes the last dependency for local environments by "
-"using `Rails.config.secret_key_base` instead of "
-"`Rails.application.secrets.secret_key_base`.  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:29
-#, markdown-text, no-wrap
-msgid ""
-"[Deprecate calling "
-"\"Rails.application.secrets\"](https://github.com/rails/rails/pull/48472)  "
-"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:30
-#, markdown-text, no-wrap
-msgid ""
-"With the last PR merged a deprecation warning will now show up when you call "
-"`Rails.application.secrets`, instead you should use "
-"`Rails.application.credentials`.  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:32
-#, markdown-text, no-wrap
-msgid ""
-"[Use cache \":coder\" option to specify "
-"\":message_pack\"](https://github.com/rails/rails/pull/48449)  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:33
-#, markdown-text, no-wrap
-msgid ""
-"This PR removes the unreleased `:message_pack` option from "
-"`config.active_support.cache_format_version` and instead provides a new "
-"`:coder` option to the `config.cache_store` flag.  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:36
-#, markdown-text, no-wrap
-msgid ""
-"_You can view the whole list of changes "
-"[here](https://github.com/rails/rails/compare/@%7B2023-06-09%7D...main@%7B2023-06-16%7D)._  "
-"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:38
-#, markdown-text
-msgid ""
-"_We had [24 "
-"contributors](https://contributors.rubyonrails.org/contributors/in-time-window/20230609-20230616) "
-"to the Rails codebase this past week!_"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:39
-#: ../_posts/2023-06-23-this-week-in-rails.markdown:73
-#: ../_posts/2023-07-07-this-week-in-rails.markdown:47
-#, markdown-text, no-wrap
-msgid "Until next time!  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../_posts/2023-06-16-this-week-in-rails-.markdown:41
-#: ../_posts/2023-06-23-this-week-in-rails.markdown:75
-#: ../_posts/2023-06-30-this-week-in-rails.markdown:88
-#: ../_posts/2023-07-07-this-week-in-rails.markdown:49
-#, markdown-text
-msgid ""
-"_[Subscribe](https://world.hey.com/this.week.in.rails) to get these updates "
-"mailed to you._"
-msgstr ""
-
-#. type: YAML Front Matter: author
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "gregmolnar"
+msgstr ""
+
+#. type: YAML Front Matter: categories
+#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
+#, no-wrap
+msgid "news"
 msgstr ""
 
 #. type: YAML Front Matter: date
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "2023-06-23"
+msgstr ""
+
+#. type: YAML Front Matter: layout
+#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
+#: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
+#: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
+#, no-wrap
+msgid "post"
+msgstr ""
+
+#. type: YAML Front Matter: published
+#: ../_posts/2023-06-23-this-week-in-rails.markdown:1
+#: ../_posts/2023-06-26-Rails-Versions-7-0-5-1-6-1-7-4-have-been-released.markdown:1
+#: ../_posts/2023-06-29-Rails-7-0-6-has-been-released.markdown:1
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:1
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:1
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
+#, no-wrap
+msgid "true"
 msgstr ""
 
 #. type: YAML Front Matter: title
@@ -533,6 +346,23 @@ msgid ""
 "_We had [21 "
 "contributors](https://contributors.rubyonrails.org/contributors/in-time-window/20230616-20230623) "
 "to the Rails codebase this past week!_"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-23-this-week-in-rails.markdown:73
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:47
+#, markdown-text, no-wrap
+msgid "Until next time!  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-06-23-this-week-in-rails.markdown:75
+#: ../_posts/2023-06-30-this-week-in-rails.markdown:88
+#: ../_posts/2023-07-07-this-week-in-rails.markdown:49
+#, markdown-text
+msgid ""
+"_[Subscribe](https://world.hey.com/this.week.in.rails) to get these updates "
+"mailed to you._"
 msgstr ""
 
 #. type: YAML Front Matter: author
@@ -1240,4 +1070,150 @@ msgid ""
 "_We had [24 "
 "contributors](https://contributors.rubyonrails.org/contributors/in-time-window/20230630-20230707) "
 "to the Rails codebase this past week!_"
+msgstr ""
+
+#. type: YAML Front Matter: author
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
+#, no-wrap
+msgid "siaw23"
+msgstr ""
+
+#. type: YAML Front Matter: date
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
+#, no-wrap
+msgid "2023-07-23"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
+#, no-wrap
+msgid ""
+"A much needed Active Storage documentation with a new option to trigger "
+"has_secure_token "
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:11
+#, markdown-text
+msgid ""
+"This is [Emmanuel](https://hayford.dev/)... you haven't heard from me in a "
+"while. I'm doing great, and have a few merged pull requests that I want to "
+"share with you."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:14
+#, markdown-text
+msgid ""
+"[Don't show secrets for MessageVerifier#inspect and "
+"KeyGenerator#inspect](https://github.com/rails/rails/pull/48680)  If anyone "
+"calls a cipher in the console, it will reveal the secret of the "
+"encryptor. By overriding the inspect method to display only the class name, "
+"we can prevent accidental exposure of sensitive information."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:17
+#, markdown-text
+msgid ""
+"[Active Record commit transaction on return, break and "
+"throw](https://github.com/rails/rails/pull/48600)  There's a lot of history "
+"around this PR. In short Rails 7.1 will get a new configuration option that "
+"defines whether **return** , **break** and **throw** inside a transaction "
+"block cause the transaction to be committed or rolled back. Let's take this "
+"example:"
+msgstr ""
+
+#. type: Fenced code block (ruby)
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:18
+#, no-wrap
+msgid ""
+"Model.transaction do\n"
+"  model.save\n"
+"  return\n"
+"  other_model.save\n"
+"end\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:27
+#, markdown-text
+msgid ""
+"With the new "
+"**config.active\\_record.commit\\_transaction\\_on\\_non\\_local\\_return** "
+"set to **false** , this transaction will rollback upon hitting return, if "
+"set to **true** , the transaction will be committed."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:30
+#, markdown-text
+msgid ""
+"[Document common ActiveStorage "
+"issues](https://github.com/rails/rails/pull/48722)  When attaching files to "
+"a **has\\_many\\_attached** association, the default behaviour is to replace "
+"any existing attachments. However, if you wish to preserve existing "
+"attachments and add new ones, you can achieve this by setting "
+"**Rails.application.config.replace\\_on\\_assign\\_to\\_many** to "
+"**false**. This PR properly documents this behaviour."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:34
+#, markdown-text
+msgid ""
+"[Specify when to generate "
+"has\\_secure\\_token](https://github.com/rails/rails/pull/47420)  Rails has "
+"a **has\\_secure\\_token** method that employs **SecureRandom::base58** to "
+"generate a 24-character unique token for a model. With this PR, one can "
+"specify at what point during the model's life-cycle the token is generated "
+"via an **on:** option. This PR ensures we can do something like:"
+msgstr ""
+
+#. type: Fenced code block (ruby)
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:35
+#, no-wrap
+msgid ""
+"class User < ApplicationRecord\n"
+"  has_secure_token on: :initialize\n"
+"end\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:42
+#, markdown-text
+msgid ""
+"By passing the **_on: :initialize_** , the token is generated in an "
+"**after\\_initialize** callback as opposed a **before\\_\\*** callback which "
+"is the default behaviour."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:44
+#, markdown-text
+msgid ""
+"In the last fourteen days, we've had [37 generous "
+"contributors](https://contributors.rubyonrails.org/contributors/in-time-window/20230707-20230721)."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:46
+#, markdown-text
+msgid "That's all I've got for today!"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:51
+#, markdown-text
+msgid ""
+"Your weekly inside scoop of interesting commits, pull requests and more from "
+"[**Rails**](https://github.com/rails/rails)."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:52
+#, markdown-text, no-wrap
+msgid ""
+"<p><i><a href=\"https://world.hey.com/this.week.in.rails\">Subscribe</a> to "
+"get these updates mailed to you.</i></p>\n"
 msgstr ""
