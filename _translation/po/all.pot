@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-07-24 07:13+0900\n"
+"POT-Creation-Date: 2023-07-25 08:07+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,7 @@ msgstr ""
 #: ../_posts/2023-06-30-this-week-in-rails.markdown:1
 #: ../_posts/2023-07-07-this-week-in-rails.markdown:1
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
 #, no-wrap
 msgid "news"
 msgstr ""
@@ -44,6 +45,7 @@ msgstr ""
 #: ../_posts/2023-06-30-this-week-in-rails.markdown:1
 #: ../_posts/2023-07-07-this-week-in-rails.markdown:1
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
 #, no-wrap
 msgid "post"
 msgstr ""
@@ -55,6 +57,7 @@ msgstr ""
 #: ../_posts/2023-06-30-this-week-in-rails.markdown:1
 #: ../_posts/2023-07-07-this-week-in-rails.markdown:1
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
 #, no-wrap
 msgid "true"
 msgstr ""
@@ -1216,4 +1219,263 @@ msgstr ""
 msgid ""
 "<p><i><a href=\"https://world.hey.com/this.week.in.rails\">Subscribe</a> to "
 "get these updates mailed to you.</i></p>\n"
+msgstr ""
+
+#. type: YAML Front Matter: author
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
+#, no-wrap
+msgid "The Rails Foundation"
+msgstr ""
+
+#. type: YAML Front Matter: date
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
+#, no-wrap
+msgid "2023-07-24"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
+#, no-wrap
+msgid "Meet the Rails World Speakers"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:11
+#, markdown-text
+msgid ""
+"We are thrilled to unveil the lineup of speakers for the inaugural edition "
+"of [Rails World](/world), taking place on October 5 and 6 in Amsterdam."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:13
+#, markdown-text
+msgid ""
+"With the spotlight firmly on shaping the future of Rails, these speakers are "
+"coming to Amsterdam this October to share their expertise, insights, and "
+"success stories with you."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:16
+#, markdown-text
+msgid "So, who can you expect to hear at Rails World? In alphabetical order:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Aaron Patterson](/world)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Adam Wathan](/world/speakers/adam-wathan)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Adrianna Chang](/world/speakers/adrianna-chang)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Breno Gazzola](/world/speakers/breno-gazzola)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Brian Scanlan](/world/speakers/brian-scanlan)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Chris Oliver](/world/speakers/chris-oliver)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Christian Bruckmayer](/world/speakers/christian-bruckmayer)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Cynthia Lo](/world/speakers/cynthia-lo)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[David Heinemeier Hansson](/world/speakers/david-hansson)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Donal McBreen](/world/speakers/donal-mcbreen)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Eileen M. Uchitelle](/world/speakers/eileen-uchitelle)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Irina Nazarova](/world/speakers/irina-nazarova)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Jason Charnes](/world/speakers/jason-charnes)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Jay Ohms](/world/speakers/jay-ohms)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Jenny Shen](/world/speakers/jenny-shen)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Joe Masilotti](/world/speakers/joe-masilotti)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Jorge Manrubia](/world/speakers/jorge-manrubia)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Julia López](/world/speakers/julia-lopez)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Kylie Stradley](/world/speakers/kylie-stradley)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Marco Roth](/world/speakers/marco-roth)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Mike Dalessio](/world/speakers/mike-dalessio)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Miles McGuire](/world/speakers/miles-mcguire)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Nikita Vasilevsky](/world/speakers/nikita-vasilevsky)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Peter Zhu](/world/speakers/peter-zhu)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Ryan Singer](/world/speakers/ryan-singer)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Sean Marcia](/world/speakers/sean-marcia)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Vladimir Dementyev](/world/speakers/vladimir-dementyev)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Xavier Noria](/world/speakers/xavier-noria)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+#, markdown-text
+msgid "[Yaroslav Shmarov](/world/speakers/yaroslav-shmarov)"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:48
+#, markdown-text
+msgid ""
+"We thank each and every one of these speakers for helping build the first "
+"Rails World. Stay tuned- in a few weeks we will update the Rails World "
+"website with their talk abstracts and the full schedule."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:50
+#, markdown-text
+msgid "__Thanks to all who submitted__"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:52
+#, markdown-text
+msgid ""
+"We were blown away by the overwhelming response from the community- a "
+"staggering 180 submissions poured in. The depth and diversity of ideas made "
+"the selection process a true challenge. We extend our heartfelt thanks to "
+"all who submitted their proposals, and while we couldn't accommodate every "
+"submission this time, we hope to see more of your incredible contributions "
+"in the future."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:54
+#, markdown-text
+msgid "__Sponsor Rails World__"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:55
+#, markdown-text
+msgid ""
+"Joining Rails World as a sponsor means helping create Rails history and "
+"showcasing your brand to a global audience of Rails enthusiasts, developers, "
+"and industry leaders. Check out the prospectus "
+"[here](https://public.3.basecamp.com/p/C7HPYMpM77kVYjfnFsoSJkrJ), and get in "
+"touch with sponsors@rubyonrails.org to discuss the best option for you."
 msgstr ""

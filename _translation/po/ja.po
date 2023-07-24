@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Ruby on Rails website\n"
-"POT-Creation-Date: 2023-07-24 07:13+0900\n"
-"PO-Revision-Date: 2023-07-24 08:01+0900\n"
+"POT-Creation-Date: 2023-07-25 08:07+0900\n"
+"PO-Revision-Date: 2023-07-25 08:53+0900\n"
 "Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -25,6 +25,7 @@ msgstr "gregmolnar"
 #: ../_posts/2023-06-30-this-week-in-rails.markdown:1
 #: ../_posts/2023-07-07-this-week-in-rails.markdown:1
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
 #, no-wrap
 msgid "news"
 msgstr "お知らせ"
@@ -42,6 +43,7 @@ msgstr "2023-06-23"
 #: ../_posts/2023-06-30-this-week-in-rails.markdown:1
 #: ../_posts/2023-07-07-this-week-in-rails.markdown:1
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
 #, no-wrap
 msgid "post"
 msgstr "post"
@@ -53,6 +55,7 @@ msgstr "post"
 #: ../_posts/2023-06-30-this-week-in-rails.markdown:1
 #: ../_posts/2023-07-07-this-week-in-rails.markdown:1
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
 #, no-wrap
 msgid "true"
 msgstr "true"
@@ -1184,9 +1187,12 @@ msgid ""
 "inspect method to display only the class name, we can prevent accidental "
 "exposure of sensitive information."
 msgstr ""
-"[MessageVerifier#inspectとKeyGenerator#inspectで秘密情報を表示しないように変更](https://github.com/rails/rails/pull/48680)。\n"
-"コントソールで暗号鍵を呼び出すとき、常に暗号化器の秘密情報が開示されていました。\n"
-"inspectメソッドをオーバーライドしてクラス名のみを表示するようにし、機密情報が漏洩される事故を防いでいます。"
+"[MessageVerifier#inspectとKeyGenerator#inspectで秘密情報を表示しないように変"
+"更](https://github.com/rails/rails/pull/48680)。\n"
+"コントソールで暗号鍵を呼び出すとき、常に暗号化器の秘密情報が開示されていまし"
+"た。\n"
+"inspectメソッドをオーバーライドしてクラス名のみを表示するようにし、機密情報が"
+"漏洩される事故を防いでいます。"
 
 #. type: Plain text
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:17
@@ -1197,10 +1203,13 @@ msgid ""
 "**return** , **break** and **throw** inside a transaction block cause the "
 "transaction to be committed or rolled back. Let's take this example:"
 msgstr ""
-"[Active Recordの返値、中断、例外発生時のトランザクションのコミット](https://github.com/rails/rails/pull/48600)。\n"
+"[Active Recordの返値、中断、例外発生時のトランザクションのコミット](https://"
+"github.com/rails/rails/pull/48600)。\n"
 "このPRに関しては沢山の経緯がありました。\n"
 "手短かに言うと、Rails 7.1では新しい構成オプションが追加されます。\n"
-"このオプションでは、トランザクションのブロック内で**返値**や**処理の中断**や**例外発生**があったとき、トランザクションがコミットされるかロールバックされるかを定義します。\n"
+"このオプションでは、トランザクションのブロック内で**返値**や**処理の中断**や"
+"**例外発生**があったとき、トランザクションがコミットされるかロールバックされ"
+"るかを定義します。\n"
 "こちらの例を見てみましょう。"
 
 #. type: Fenced code block (ruby)
@@ -1227,7 +1236,9 @@ msgid ""
 "transaction will rollback upon hitting return, if set to **true** , the "
 "transaction will be committed."
 msgstr ""
-"**config.active\\_record.commit\\_transaction\\_on\\_non\\_local\\_return**が**false**に設定されているとき、トランザクションは返値に突き当たるや否やロールバックします。\n"
+"**config.active\\_record.commit\\_transaction\\_on\\_non\\_local\\_return**が"
+"**false**に設定されているとき、トランザクションは返値に突き当たるや否やロール"
+"バックします。\n"
 "**true**に設定されている場合、トランザクションはコミットされます。"
 
 #. type: Plain text
@@ -1241,9 +1252,13 @@ msgid ""
 "replace\\_on\\_assign\\_to\\_many** to **false**. This PR properly documents "
 "this behaviour."
 msgstr ""
-"[よくあるActiveStorageの問題をドキュメント化](https://github.com/rails/rails/pull/48722)。\n"
-"**has\\_many\\_attached**関係へファイルを添付するとき、既定の挙動では既存の添付物を置換します。\n"
-"しかし、既存の添付物を保存しておいて新しいものを追加したい場合は、**Rails.application.config.replace\\_on\\_assign\\_to\\_many**を**false**に設定することでアーカイブできます。\n"
+"[よくあるActiveStorageの問題をドキュメント化](https://github.com/rails/rails/"
+"pull/48722)。\n"
+"**has\\_many\\_attached**関係へファイルを添付するとき、既定の挙動では既存の添"
+"付物を置換します。\n"
+"しかし、既存の添付物を保存しておいて新しいものを追加したい場合は、**Rails."
+"application.config.replace\\_on\\_assign\\_to\\_many**を**false**に設定するこ"
+"とでアーカイブできます。\n"
 "このPRではこの挙動が適切にドキュメント化されています。"
 
 #. type: Plain text
@@ -1256,9 +1271,12 @@ msgid ""
 "cycle the token is generated via an **on:** option. This PR ensures we can "
 "do something like:"
 msgstr ""
-"[has\\_secure\\_tokenを生成するタイミングを指定](https://github.com/rails/rails/pull/47420)。\n"
-"Railsには**has\\_secure\\_token**メソッドがあり、**SecureRandom::base58**を使ってモデル用の24文字の一意なトークンを生成しています。\n"
-"このPRにより、**on:**オプションを介してモデルのライフサイクルのどの時点でトークンが生成されるかを指定できるようになりました。\n"
+"[has\\_secure\\_tokenを生成するタイミングを指定](https://github.com/rails/"
+"rails/pull/47420)。\n"
+"Railsには**has\\_secure\\_token**メソッドがあり、**SecureRandom::base58**を"
+"使ってモデル用の24文字の一意なトークンを生成しています。\n"
+"このPRにより、**on:**オプションを介してモデルのライフサイクルのどの時点でトー"
+"クンが生成されるかを指定できるようになりました。\n"
 "そのため以下のようなことができます。"
 
 #. type: Fenced code block (ruby)
@@ -1280,7 +1298,8 @@ msgid ""
 "**after\\_initialize** callback as opposed a **before\\_\\*** callback which "
 "is the default behaviour."
 msgstr ""
-"**_on: :initialize_**を渡すと、**after\\_initialize**コールバックでトークンが生成されます。\n"
+"**_on: :initialize_**を渡すと、**after\\_initialize**コールバックでトークンが"
+"生成されます。\n"
 "これは既定の挙動である**before\\_\\***コールバックとは対照的です。"
 
 #. type: Plain text
@@ -1288,7 +1307,9 @@ msgstr ""
 msgid ""
 "In the last fourteen days, we've had [37 generous contributors](https://"
 "contributors.rubyonrails.org/contributors/in-time-window/20230707-20230721)."
-msgstr "この14日間に[37名の方々](https://contributors.rubyonrails.org/contributors/in-time-window/20230707-20230721)から惜しみない貢献をいただきました。"
+msgstr ""
+"この14日間に[37名の方々](https://contributors.rubyonrails.org/contributors/"
+"in-time-window/20230707-20230721)から惜しみない貢献をいただきました。"
 
 #. type: Plain text
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:46
@@ -1300,13 +1321,252 @@ msgstr "今日のところは以上です！"
 msgid ""
 "Your weekly inside scoop of interesting commits, pull requests and more from "
 "[**Rails**](https://github.com/rails/rails)."
-msgstr "[**Rails**](https://github.com/rails/rails)からの注目すべきコミット、プルリクエストなどを週報でお届けします。"
+msgstr ""
+"[**Rails**](https://github.com/rails/rails)からの注目すべきコミット、プルリク"
+"エストなどを週報でお届けします。"
 
 #. type: Plain text
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:52
 #, no-wrap
 msgid "<p><i><a href=\"https://world.hey.com/this.week.in.rails\">Subscribe</a> to get these updates mailed to you.</i></p>\n"
 msgstr "<p><i><a href=\"https://world.hey.com/this.week.in.rails\">購読</a>するとこうした更新をメールで受け取れます。</i></p>\n"
+
+#. type: YAML Front Matter: author
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
+#, no-wrap
+msgid "The Rails Foundation"
+msgstr "The Rails Foundation"
+
+#. type: YAML Front Matter: date
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
+#, no-wrap
+msgid "2023-07-24"
+msgstr "2023-07-24"
+
+#. type: YAML Front Matter: title
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
+#, no-wrap
+msgid "Meet the Rails World Speakers"
+msgstr "Rails Worldの登壇者に会いに行こう"
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:11
+msgid ""
+"We are thrilled to unveil the lineup of speakers for the inaugural edition "
+"of [Rails World](/world), taking place on October 5 and 6 in Amsterdam."
+msgstr ""
+"[Rails World](/world)の発会にあたり登壇者の面々を公表させていただきます。\n"
+"本会はアムステルダムで10月5日から6日に掛けて催されます。"
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:13
+msgid ""
+"With the spotlight firmly on shaping the future of Rails, these speakers are "
+"coming to Amsterdam this October to share their expertise, insights, and "
+"success stories with you."
+msgstr "Railsの未来の確固とした形成に焦点を当て、登壇者の方々に本年10月のアムステルダムにお越しいただき、経験、洞察、成功談を共有していただきます。"
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:16
+msgid "So, who can you expect to hear at Rails World? In alphabetical order:"
+msgstr ""
+"それでは、Rails Worldで誰の話が聞けるのでしょうか。\n"
+"辞書順で以下の通りです。"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Aaron Patterson](/world)"
+msgstr "[Aaron Patterson](/world)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Adam Wathan](/world/speakers/adam-wathan)"
+msgstr "[Adam Wathan](/world/speakers/adam-wathan)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Adrianna Chang](/world/speakers/adrianna-chang)"
+msgstr "[Adrianna Chang](/world/speakers/adrianna-chang)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Breno Gazzola](/world/speakers/breno-gazzola)"
+msgstr "[Breno Gazzola](/world/speakers/breno-gazzola)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Brian Scanlan](/world/speakers/brian-scanlan)"
+msgstr "[Brian Scanlan](/world/speakers/brian-scanlan)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Chris Oliver](/world/speakers/chris-oliver)"
+msgstr "[Chris Oliver](/world/speakers/chris-oliver)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Christian Bruckmayer](/world/speakers/christian-bruckmayer)"
+msgstr "[Christian Bruckmayer](/world/speakers/christian-bruckmayer)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Cynthia Lo](/world/speakers/cynthia-lo)"
+msgstr "[Cynthia Lo](/world/speakers/cynthia-lo)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[David Heinemeier Hansson](/world/speakers/david-hansson)"
+msgstr "[David Heinemeier Hansson](/world/speakers/david-hansson)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Donal McBreen](/world/speakers/donal-mcbreen)"
+msgstr "[Donal McBreen](/world/speakers/donal-mcbreen)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Eileen M. Uchitelle](/world/speakers/eileen-uchitelle)"
+msgstr "[Eileen M. Uchitelle](/world/speakers/eileen-uchitelle)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Irina Nazarova](/world/speakers/irina-nazarova)"
+msgstr "[Irina Nazarova](/world/speakers/irina-nazarova)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Jason Charnes](/world/speakers/jason-charnes)"
+msgstr "[Jason Charnes](/world/speakers/jason-charnes)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Jay Ohms](/world/speakers/jay-ohms)"
+msgstr "[Jay Ohms](/world/speakers/jay-ohms)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Jenny Shen](/world/speakers/jenny-shen)"
+msgstr "[Jenny Shen](/world/speakers/jenny-shen)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Joe Masilotti](/world/speakers/joe-masilotti)"
+msgstr "[Joe Masilotti](/world/speakers/joe-masilotti)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Jorge Manrubia](/world/speakers/jorge-manrubia)"
+msgstr "[Jorge Manrubia](/world/speakers/jorge-manrubia)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Julia López](/world/speakers/julia-lopez)"
+msgstr "[Julia López](/world/speakers/julia-lopez)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Kylie Stradley](/world/speakers/kylie-stradley)"
+msgstr "[Kylie Stradley](/world/speakers/kylie-stradley)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Marco Roth](/world/speakers/marco-roth)"
+msgstr "[Marco Roth](/world/speakers/marco-roth)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Mike Dalessio](/world/speakers/mike-dalessio)"
+msgstr "[Mike Dalessio](/world/speakers/mike-dalessio)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Miles McGuire](/world/speakers/miles-mcguire)"
+msgstr "[Miles McGuire](/world/speakers/miles-mcguire)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Nikita Vasilevsky](/world/speakers/nikita-vasilevsky)"
+msgstr "[Nikita Vasilevsky](/world/speakers/nikita-vasilevsky)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Peter Zhu](/world/speakers/peter-zhu)"
+msgstr "[Peter Zhu](/world/speakers/peter-zhu)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Ryan Singer](/world/speakers/ryan-singer)"
+msgstr "[Ryan Singer](/world/speakers/ryan-singer)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Sean Marcia](/world/speakers/sean-marcia)"
+msgstr "[Sean Marcia](/world/speakers/sean-marcia)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Vladimir Dementyev](/world/speakers/vladimir-dementyev)"
+msgstr "[Vladimir Dementyev](/world/speakers/vladimir-dementyev)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Xavier Noria](/world/speakers/xavier-noria)"
+msgstr "[Xavier Noria](/world/speakers/xavier-noria)"
+
+#. type: Bullet: '- '
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:46
+msgid "[Yaroslav Shmarov](/world/speakers/yaroslav-shmarov)"
+msgstr "[Yaroslav Shmarov](/world/speakers/yaroslav-shmarov)"
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:48
+msgid ""
+"We thank each and every one of these speakers for helping build the first "
+"Rails World. Stay tuned- in a few weeks we will update the Rails World "
+"website with their talk abstracts and the full schedule."
+msgstr ""
+"登壇者の皆様には初回のRails Worldの設営にお力添えいただき感謝申し上げます。\n"
+"続報をお見逃しなく。\n"
+"数週間以内にRails Worldのwebサイトを更新し、講演の概要と全日程を掲載します。"
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:50
+msgid "__Thanks to all who submitted__"
+msgstr "__ご応募いただいた全ての方に感謝致します__"
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:52
+msgid ""
+"We were blown away by the overwhelming response from the community- a "
+"staggering 180 submissions poured in. The depth and diversity of ideas made "
+"the selection process a true challenge. We extend our heartfelt thanks to "
+"all who submitted their proposals, and while we couldn't accommodate every "
+"submission this time, we hope to see more of your incredible contributions "
+"in the future."
+msgstr ""
+"コミュニティからの圧倒的な反響に驚かされました。\n"
+"なんと180件もの応募が殺到したのです。\n"
+"内容の深さと多様さにより、選考過程は困難を極めました。\n"
+"申請を提出していただいた皆様に心からの感謝の意を表します。\n"
+"今回全ての応募は受け付けられませんでしたが、将来的に皆様の素晴らしい貢献が更に増えることを期待します。"
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:54
+msgid "__Sponsor Rails World__"
+msgstr "__Rails Worldを後援しよう__"
+
+#. type: Plain text
+#: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:55
+msgid ""
+"Joining Rails World as a sponsor means helping create Rails history and "
+"showcasing your brand to a global audience of Rails enthusiasts, developers, "
+"and industry leaders. Check out the prospectus [here](https://public.3."
+"basecamp.com/p/C7HPYMpM77kVYjfnFsoSJkrJ), and get in touch with "
+"sponsors@rubyonrails.org to discuss the best option for you."
+msgstr ""
+"後援団体としてRails Worldに参加することは即ち、Railsの歴史を創造し、組織のブランドをRailsの熱烈な支持者、開発者、産業界の指導者からなる国際的な聴衆に披露することとなります。\n"
+"ご提案内容は[こちら](https://public.3.basecamp.com/p/C7HPYMpM77kVYjfnFsoSJkrJ)をご確認ください。\n"
+"また最適な選択肢については sponsors@rubyonrails.org にお問い合わせいただけますと幸いです。"
 
 #, no-wrap
 #~ msgid "zzak"
