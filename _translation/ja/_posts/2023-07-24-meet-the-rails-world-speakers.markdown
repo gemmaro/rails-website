@@ -1,5 +1,5 @@
 ---
-author: 'The Rails Foundation'
+author: 'Rails Foundation'
 categories: お知らせ
 date: 2023-07-24
 layout: post

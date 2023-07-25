@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-07-25 08:07+0900\n"
+"POT-Creation-Date: 2023-07-25 22:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,7 @@ msgstr ""
 #: ../_posts/2023-07-07-this-week-in-rails.markdown:1
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
 #: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
+#: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:1
 #, no-wrap
 msgid "news"
 msgstr ""
@@ -46,6 +47,7 @@ msgstr ""
 #: ../_posts/2023-07-07-this-week-in-rails.markdown:1
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
 #: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
+#: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:1
 #, no-wrap
 msgid "post"
 msgstr ""
@@ -58,6 +60,7 @@ msgstr ""
 #: ../_posts/2023-07-07-this-week-in-rails.markdown:1
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
 #: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
+#: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:1
 #, no-wrap
 msgid "true"
 msgstr ""
@@ -1223,6 +1226,7 @@ msgstr ""
 
 #. type: YAML Front Matter: author
 #: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
+#: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:1
 #, no-wrap
 msgid "The Rails Foundation"
 msgstr ""
@@ -1478,4 +1482,93 @@ msgid ""
 "and industry leaders. Check out the prospectus "
 "[here](https://public.3.basecamp.com/p/C7HPYMpM77kVYjfnFsoSJkrJ), and get in "
 "touch with sponsors@rubyonrails.org to discuss the best option for you."
+msgstr ""
+
+#. type: YAML Front Matter: date
+#: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:1
+#, no-wrap
+msgid "2023-07-25"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:1
+#, no-wrap
+msgid "AppSignal: Platinum Sponsor at Rails World"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:11
+#, markdown-text, no-wrap
+msgid ""
+"The Rails Foundation is delighted to announce that <a "
+"href=\"https://www.appsignal.com\">AppSignal</a>, the renowned application "
+"monitoring company built on Rails and based in the Netherlands, is the "
+"Platinum sponsor at [Rails World](/world) this year.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:13
+#, markdown-text, no-wrap
+msgid ""
+"<p style=\"text-align: center; margin-top: 20px\"><img "
+"src=\"/assets/images/logo-appsignal.svg\" style=\"width: 50%\"></p>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:15
+#, markdown-text
+msgid ""
+"AppSignal has been an integral part of the Rails community for years, and "
+"earlier this year stepped up their ongoing commitment to the Rails community "
+"by [becoming a Contributing "
+"member](/2023/4/17/appsignal-is-newest-contributing-member-of-rails-foundation) "
+"of the Rails Foundation."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:17
+#, markdown-text
+msgid ""
+"Now they are taking their commitment one step further by becoming the "
+"premiere Platinum sponsor at the first Rails World taking place this October "
+"in Amsterdam. This Platinum sponsorship highlights AppSignal’s belief in the "
+"Rails framework's potential and also signifies their determination to foster "
+"growth and development within the Rails community."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:19
+#, markdown-text
+msgid ""
+"With their history of infusing Rails events with a touch of fun and a ton of "
+"stroopwafels, AppSignal is an invaluable partner in helping make this first "
+"edition of Rails World an unforgettable experience for all who attend."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:21
+#, markdown-text
+msgid ""
+"Thank you, AppSignal, for your continued support and dedication to the Rails "
+"ecosystem."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:23
+#, markdown-text
+msgid "__Join AppSignal and help create the first Rails World__"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:25
+#, markdown-text, no-wrap
+msgid ""
+"There are still sponsorship opportunities available. Sponsoring Rails World "
+"means helping create Rails history and showcasing your brand to a global "
+"audience of Rails enthusiasts, developers, and industry leaders. Check out "
+"the prospectus "
+"[here](https://public.3.basecamp.com/p/C7HPYMpM77kVYjfnFsoSJkrJ), and get in "
+"touch with <a "
+"href=\"mailto:sponsors@rubyonrails.org\">sponsors@rubyonrails.org</a> to "
+"discuss the best option for you.\n"
 msgstr ""
