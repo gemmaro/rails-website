@@ -10,7 +10,7 @@ title: 'AppSignalがRails Worldのプラチナ後援団体になりました'
 Rails Foundationは<a href="https://www.appsignal.com">AppSignal</a>が本年の[Rails World](/world)においてプラチナ後援団体になったことを喜んで告知します。
 同社はRailsで構築されたアプリケーション監視で有名な、オランダを拠点にしている企業です。
 
-<p style="text-align: center; margin-top: 20px"><img src="/assets/images/logo-appsignal.svg" style="width: 50%"></p>
+<p style="text-align: center; margin-top: 20px"><img src="{{ site.baseurl }}/assets/images/logo-appsignal.svg" style="width: 50%"></p>
 
 AppSignalは長年に亙ってRailsコミュニティの不可欠な一部であり続け、今年始めにRails
 Foundationの[貢献メンバーになる](/2023/4/17/appsignal-is-newest-contributing-member-of-rails-foundation)ことで継続的なRailsコミュニティへの献身を一歩進めました。

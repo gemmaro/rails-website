@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ruby on Rails website\n"
 "POT-Creation-Date: 2023-07-28 19:56+0900\n"
-"PO-Revision-Date: 2023-07-28 20:48+0900\n"
+"PO-Revision-Date: 2023-07-28 20:55+0900\n"
 "Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -1608,7 +1608,7 @@ msgstr ""
 #: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:13
 #, no-wrap
 msgid "<p style=\"text-align: center; margin-top: 20px\"><img src=\"/assets/images/logo-appsignal.svg\" style=\"width: 50%\"></p>\n"
-msgstr "<p style=\"text-align: center; margin-top: 20px\"><img src=\"/assets/images/logo-appsignal.svg\" style=\"width: 50%\"></p>\n"
+msgstr "<p style=\"text-align: center; margin-top: 20px\"><img src=\"{{ site.baseurl }}/assets/images/logo-appsignal.svg\" style=\"width: 50%\"></p>\n"
 
 #. type: Plain text
 #: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:15
