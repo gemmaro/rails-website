@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Ruby on Rails website\n"
-"POT-Creation-Date: 2023-07-25 22:46+0900\n"
-"PO-Revision-Date: 2023-07-25 23:36+0900\n"
+"POT-Creation-Date: 2023-07-28 19:56+0900\n"
+"PO-Revision-Date: 2023-07-28 20:48+0900\n"
 "Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -27,6 +27,7 @@ msgstr "gregmolnar"
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
 #: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
 #: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:1
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "news"
 msgstr "お知らせ"
@@ -46,6 +47,7 @@ msgstr "2023-06-23"
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
 #: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
 #: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:1
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "post"
 msgstr "post"
@@ -59,6 +61,7 @@ msgstr "post"
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
 #: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
 #: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:1
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "true"
 msgstr "true"
@@ -365,6 +368,7 @@ msgstr ""
 #. type: Plain text
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:73
 #: ../_posts/2023-07-07-this-week-in-rails.markdown:47
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:58
 #, no-wrap
 msgid "Until next time!  \n"
 msgstr "また次回！  \n"
@@ -373,6 +377,7 @@ msgstr "また次回！  \n"
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:75
 #: ../_posts/2023-06-30-this-week-in-rails.markdown:88
 #: ../_posts/2023-07-07-this-week-in-rails.markdown:49
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:60
 msgid ""
 "_[Subscribe](https://world.hey.com/this.week.in.rails) to get these updates "
 "mailed to you._"
@@ -1612,7 +1617,11 @@ msgid ""
 "earlier this year stepped up their ongoing commitment to the Rails community "
 "by [becoming a Contributing member](/2023/4/17/appsignal-is-newest-"
 "contributing-member-of-rails-foundation) of the Rails Foundation."
-msgstr "AppSignalは長年に亙ってRailsコミュニティの不可欠な一部であり続け、今年始めにRails Foundationの[貢献メンバーになる](/2023/4/17/appsignal-is-newest-contributing-member-of-rails-foundation)ことで継続的なRailsコミュニティへの献身を一歩進めました。"
+msgstr ""
+"AppSignalは長年に亙ってRailsコミュニティの不可欠な一部であり続け、今年始めに"
+"Rails Foundationの[貢献メンバーになる](/2023/4/17/appsignal-is-newest-"
+"contributing-member-of-rails-foundation)ことで継続的なRailsコミュニティへの献"
+"身を一歩進めました。"
 
 #. type: Plain text
 #: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:17
@@ -1623,8 +1632,12 @@ msgid ""
 "Rails framework's potential and also signifies their determination to foster "
 "growth and development within the Rails community."
 msgstr ""
-"そしてこの度、今年の10月にアムステルダムで催される最初のRails Worldの最初のプラチナ後援団体になることで、同社はその献身をまた一歩進めることとなりました。\n"
-"プラチナ後援枠はAppSignalのRailsフレームワークが持つ潜在能力への信望に光を当てるものであり、またRailsコミュニティ内の成長と開発を助成する決意表明でもあります。"
+"そしてこの度、今年の10月にアムステルダムで催される最初のRails Worldの最初のプ"
+"ラチナ後援団体になることで、同社はその献身をまた一歩進めることとなりまし"
+"た。\n"
+"プラチナ後援枠はAppSignalのRailsフレームワークが持つ潜在能力への信望に光を当"
+"てるものであり、またRailsコミュニティ内の成長と開発を助成する決意表明でもあり"
+"ます。"
 
 # ???
 #. type: Plain text
@@ -1634,21 +1647,28 @@ msgid ""
 "stroopwafels, AppSignal is an invaluable partner in helping make this first "
 "edition of Rails World an unforgettable experience for all who attend."
 msgstr ""
-"ささやかな遊び心と山盛りの[ストロープワッフル][wafel]でRailsのイベントに溶け込んできたように、AppSignalはこの最初のRails Worldを、全参加者にとって忘れがたい経験にすべくお力添えいただく、非常に貴重な協力企業です。\n"
+"ささやかな遊び心と山盛りの[ストロープワッフル][wafel]でRailsのイベントに溶け"
+"込んできたように、AppSignalはこの最初のRails Worldを、全参加者にとって忘れが"
+"たい経験にすべくお力添えいただく、非常に貴重な協力企業です。\n"
 "\n"
-"[wafel]:https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%88%E3%83%AD%E3%83%BC%E3%83%97%E3%83%AF%E3%83%83%E3%83%95%E3%83%AB"
+"[wafel]:https://ja.wikipedia.org/wiki/"
+"%E3%82%B9%E3%83%88%E3%83%AD%E3%83%BC%E3%83%97%E3%83%AF%E3%83%83%E3%83%95%E3%83%AB"
 
 #. type: Plain text
 #: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:21
 msgid ""
 "Thank you, AppSignal, for your continued support and dedication to the Rails "
 "ecosystem."
-msgstr "AppSignalのRailsのエコシステムに対する継続的なご支援と真摯な姿勢に御礼申し上げます。"
+msgstr ""
+"AppSignalのRailsのエコシステムに対する継続的なご支援と真摯な姿勢に御礼申し上"
+"げます。"
 
 #. type: Plain text
 #: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:23
 msgid "__Join AppSignal and help create the first Rails World__"
-msgstr "__AppSignalに続き、最初のRails Worldの開催にご支援いただきますようお願いします__"
+msgstr ""
+"__AppSignalに続き、最初のRails Worldの開催にご支援いただきますようお願いしま"
+"す__"
 
 #. type: Plain text
 #: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:25
@@ -1660,17 +1680,213 @@ msgstr ""
 "ご提案内容は[こちら](https://public.3.basecamp.com/p/C7HPYMpM77kVYjfnFsoSJkrJ)をご確認ください。\n"
 "また最適な選択肢については sponsors@rubyonrails.org にお問い合わせいただけますと幸いです。\n"
 
+#. type: YAML Front Matter: author
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:1
 #, no-wrap
-#~ msgid "zzak"
-#~ msgstr "zzak"
+msgid "zzak"
+msgstr "zzak"
+
+#. type: YAML Front Matter: date
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "2023-07-28"
+msgstr "2023-07-28"
+
+#. type: YAML Front Matter: title
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "This Week in Rails - July 28, 2023"
+msgstr "今週Railsにあったこと - 2023年7月28日"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:12
+msgid ""
+"Hi, it's [zzak](https://github.com/zzak). Let's explore this week's changes "
+"in the Rails codebase."
+msgstr ""
+"こんにちは、[zzak](https://github.com/zzak)です。\n"
+"Railsのコードベースにあった変更を探索しましょう。"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:13
+#, no-wrap
+msgid "[Rack::Lint on Rails middleware tests](https://github.com/skipkayhil/rails/issues/5)  \n"
+msgstr "[Rack::LintをRailsのミドルウェアのテストに適用](https://github.com/skipkayhil/rails/issues/5)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:15
+msgid ""
+"While this work is not technically user-facing, it's important to ensure the "
+"future of Rails continues to maintain compatibility with the [Rack SPEC]"
+"(https://github.com/rack/rack/blob/main/SPEC.rdoc). You can read more about "
+"the [Rack 3 upgrade guide](https://github.com/rack/rack/"
+"blob/6d16306192349e665e4ec820a9bfcc0967009b6a/UPGRADE-GUIDE.md) if you're "
+"interested or maintain a library that depends on Rack."
+msgstr ""
+"今週は技術的には利用者が目にするものはありませんでしたが、将来のRailsが[Rack SPEC](https://github.com/rack/rack/blob/main/SPEC.rdoc)との互換性を維持し続けることになるということは重要です。\n"
+"Rackに依存するライブラリに興味があったり保守していたりする向きには、[Rack 3への更新の手引き](https://github.com/rack/rack/blob/6d16306192349e665e4ec820a9bfcc0967009b6a/UPGRADE-GUIDE.md)で詳細を読めます。"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:17
+#, no-wrap
+msgid "[Sort SchemaCache members when dumping it](https://github.com/rails/rails/pull/48824)  \n"
+msgstr "[ダンプ時にSchemaCacheの構成子を整列](https://github.com/rails/rails/pull/48824)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:19
+msgid ""
+"This PR makes the results of generating the schema cache to be consistent, "
+"allowing use of the file digest for cache keys."
+msgstr "このPRにより生成結果のスキーマキャッシュが一貫したものになり、ファイルダイジェストがキャッシュキーに使えるようになります。"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:21
+#, no-wrap
+msgid "[Add tags to audio analyzer metadata](https://github.com/rails/rails/pull/48823)  \n"
+msgstr "[音響分析器のメタ情報にタグを追加](https://github.com/rails/rails/pull/48823)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:23
+msgid ""
+"With this change Active Storage will now provide any additional tags from "
+"the metadata when analyzing audio files. This can be useful if you need to "
+"access the encoder, for example."
+msgstr ""
+"この変更により、音響ファイルを分析する際、Active Storageによりメタ情報から追加のタグが提供されます。\n"
+"例えばエンコーダーにアクセスする必要がある場合に便利でしょう。"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:25
+#, no-wrap
+msgid "[Introduce \"capture_emails\" and \"capture_broadcasts\"](https://github.com/rails/rails/pull/48798)  \n"
+msgstr "[\"capture_emails\"と\"capture_broadcasts\"を導入](https://github.com/rails/rails/pull/48798)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:27
+msgid ""
+"This PR reverts the previously unreleased behavior added to "
+"\"assert_emails\" and \"assert_broadcasts\" into these two new methods."
+msgstr "このPRは \"assert_emails\" と \"assert_broadcasts\" に以前加えられた未リリースの挙動を元に戻し、これら2つの新しいメソッドに追加します。"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:29
+#, no-wrap
+msgid "[Make ActiveRecord's quoted name caches thread-safe on JRuby/TruffleRuby](https://github.com/rails/rails/pull/48773)  \n"
+msgstr "[ActiveRecordの引用符で囲まれた名前がJRuby/TruffleRubyでスレッド安全にキャッシュされるように変更](https://github.com/rails/rails/pull/48773)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:31
+msgid ""
+"This commit resolves a thread-safety issue when running a Rails application "
+"on TruffleRuby. ActiveRecord's quoted name caches are updated when building "
+"SQL queries. If two threads are building queries at the same time, they may "
+"both attempt to update the cache. This can cause two threads to see totally "
+"different cache stores, leading to multiple live caches across different "
+"threads which will consume extra memory and may be confusing to debug."
+msgstr ""
+"このコミットはTruffleRubyでRailsアプリケーションを走らせる際のスレッド安全上の問題を解決します。\n"
+"ActiveRecordの引用符で囲まれた名前のキャッシュはSQL問い合わせ構築時に更新されます。\n"
+"2スレッドが同時に問い合わせを構築する場合、両方ともキャッシュの更新を試みることが有り得ます。\n"
+"これにより2スレッドが全く異なるキャッシュストアを持つ事態が置こり得るため、異なるスレッド間で複数のキャッシュが生まれることになり、余剰のメモリを消費したり不具合修正で混乱したりする可能性がありました。"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:33
+#, no-wrap
+msgid "[Prevent inspecting transmit data if not necessary](https://github.com/rails/rails/pull/48772)  \n"
+msgstr "[不要であればデータ伝送のinspectを抑止](https://github.com/rails/rails/pull/48772)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:35
+msgid ""
+"Currently on every call to \"ActionCable::Channel::Base#transmit\", debug "
+"log message is generated that inspects the provided data object. The message "
+"is generated even if the logger's level is above WARN. This patch makes it "
+"so the message is generated only when it can be logged."
+msgstr ""
+"現在 \"ActionCable::Channel::Base#transmit\" の呼び出し時には毎回、与えられたデータオブジェクトをinspectするデバッグログ文言が生成されます。\n"
+"この文言はロガーの水準がWARN以上であっても生成されます。\n"
+"このパッチはログに記録される場合のみにこの文言が生成されるようにしています。"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:37
+#, no-wrap
+msgid "[Make all cache stores return a boolean for \"#delete\"](https://github.com/rails/rails/pull/48638)  \n"
+msgstr "[全てのキャッシュストアが\"#delete\"で真偽値を返すように変更](https://github.com/rails/rails/pull/48638)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:40
+msgid ""
+"This PR makes the behavior of \"Rails.cache.delete('key')\" consistent, so "
+"that it returns \"true\" if an entry exists (and \"false\" otherwise).  "
+"Previously, the RedisCacheStore and FileStore behaved differently."
+msgstr ""
+"このPRは \"Rails.cache.delete('key')\" の挙動が一貫したものになるようにし、項目が存在するときは \"true\" を（あるいはそうでないときは \"false\" を）返すようにします。\n"
+"以前はRedisCacheStoreをFileStoreは異なる挙動をしていました。"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:42
+#, no-wrap
+msgid "[Restore behavior of \"where.missing\" and \"where.associated\" on enums](https://github.com/rails/rails/pull/48738)  \n"
+msgstr "[列挙体における \"where.missing\" と \"where.associated\" の挙動を復元](https://github.com/rails/rails/pull/48738)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:44
+msgid ""
+"This PR fixes a regression where calling the \"associated\" method would "
+"result in an incorrect SQL query, leading to confusing results."
+msgstr ""
+"このPRは \"associated\" メソッドを呼ぶ際の回帰不具合を修正します。\n"
+"不正確なSQL問い合わせになり紛らわしい結果になっていました。"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:46
+#, no-wrap
+msgid "[Lazily deserialize cache entries](https://github.com/rails/rails/pull/48754)  \n"
+msgstr "[キャッシュ項目の脱直列化を遅延化](https://github.com/rails/rails/pull/48754)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:47
+#, no-wrap
+msgid "This adds a cache optimization such that expired and version-mismatched cache entries can be detected without deserializing their values.  This optimization is enabled when using cache format version >= 7.1 or a custom serializer.  \n"
+msgstr ""
+"この変更はキャッシュ最適化を加え、期限切れであったりバージョンが合わなかったりするキャッシュ項目について、値を脱直列化することなく検出できるようにしました。\n"
+"この最適化はキャッシュ形式のバージョンが7.1以上のものか自前の直列化器を使っている場合に有効化されます。  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:50
+#, no-wrap
+msgid "[Support replacing cache compressor](https://github.com/rails/rails/pull/48451)  \n"
+msgstr "[キャッシュ圧縮器の置き換えに対応](https://github.com/rails/rails/pull/48451)  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:52
+msgid ""
+"This PR adds support for replacing the compressor used for serialized cache "
+"entries, by specifying the \":compressor\" option on \"config.cache_store\". "
+"Similar to the \":coder\" option to replace the serializer which are "
+"responsible for a cached value, coders are responsible for serializing the "
+"entire \"ActiveSupport::Cache::Entry\" instance."
+msgstr ""
+"このPRは直列化されたキャッシュ項目用に使われる圧縮機を置き換える対応を加えます。\n"
+"置き換えには \"config.cache_store\" に \":compressor\" オプションを指定します。\n"
+"キャッシュされた値に責務を負う直列化器を置き換える \":coder\" オプションと似ており、そちらでは \"ActiveSupport::Cache::Entry\" インスタンス全体を直列化することに責務があるのでした。"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:55
+#, no-wrap
+msgid "_You can view the whole list of changes [here](https://github.com/rails/rails/compare/@%7B2023-07-21%7D...main@%7B2023-07-28%7D)._  \n"
+msgstr "*変更の全一覧については[こちらをご覧下さい](https://github.com/rails/rails/compare/@%7B2023-07-21%7D...main@%7B2023-07-28%7D)。*  \n"
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:57
+msgid ""
+"_We had [20 contributors](https://contributors.rubyonrails.org/contributors/"
+"in-time-window/20230721-20230728) to the Rails codebase this past week!_"
+msgstr "*この1週間に[20名の方々](https://contributors.rubyonrails.org/contributors/in-time-window/20230721-20230728)からRailsのコードベースに貢献していただきました！*"
 
 #, no-wrap
 #~ msgid "2023-06-16"
 #~ msgstr "2023-06-16"
-
-#, no-wrap
-#~ msgid "This Week in Rails - June 16, 2023"
-#~ msgstr "今週のRails - 2023年6月16日"
 
 #~ msgid ""
 #~ "Hi, it's [zzak](https://github.com/zzak). We're officially half-way "
@@ -1698,10 +1914,6 @@ msgstr ""
 #, no-wrap
 #~ msgid "[Store \"secret_key_base\" in \"Rails.config\" for local environments.](https://github.com/rails/rails/pull/48470)  \n"
 #~ msgstr "[ローカル環境用に \"Rails.config\" に \"store_key_base\" を格納。](https://github.com/rails/rails/pull/48470)  \n"
-
-#, no-wrap
-#~ msgid "[Deprecate calling \"Rails.application.secrets\"](https://github.com/rails/rails/pull/48472)  \n"
-#~ msgstr "[\"Rails.application.secrets\" の呼び出しを非推奨に](https://github.com/rails/rails/pull/48472)  \n"
 
 #, no-wrap
 #~ msgid "[Use cache \":coder\" option to specify \":message_pack\"](https://github.com/rails/rails/pull/48449)  \n"

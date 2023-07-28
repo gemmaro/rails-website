@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-07-25 22:46+0900\n"
+"POT-Creation-Date: 2023-07-28 19:56+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,6 +29,7 @@ msgstr ""
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
 #: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
 #: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:1
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "news"
 msgstr ""
@@ -48,6 +49,7 @@ msgstr ""
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
 #: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
 #: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:1
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "post"
 msgstr ""
@@ -61,6 +63,7 @@ msgstr ""
 #: ../_posts/2023-07-23-this-week-in-rails-a-much-needed-active-storage-documentation-with-a-new-option-to-trigger-has_secure_token-719cb867.markdown:1
 #: ../_posts/2023-07-24-meet-the-rails-world-speakers.markdown:1
 #: ../_posts/2023-07-25-appsignal-platinum-sponsor-at-rails-world.markdown:1
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:1
 #, no-wrap
 msgid "true"
 msgstr ""
@@ -357,6 +360,7 @@ msgstr ""
 #. type: Plain text
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:73
 #: ../_posts/2023-07-07-this-week-in-rails.markdown:47
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:58
 #, markdown-text, no-wrap
 msgid "Until next time!  \n"
 msgstr ""
@@ -365,6 +369,7 @@ msgstr ""
 #: ../_posts/2023-06-23-this-week-in-rails.markdown:75
 #: ../_posts/2023-06-30-this-week-in-rails.markdown:88
 #: ../_posts/2023-07-07-this-week-in-rails.markdown:49
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:60
 #, markdown-text
 msgid ""
 "_[Subscribe](https://world.hey.com/this.week.in.rails) to get these updates "
@@ -1571,4 +1576,225 @@ msgid ""
 "touch with <a "
 "href=\"mailto:sponsors@rubyonrails.org\">sponsors@rubyonrails.org</a> to "
 "discuss the best option for you.\n"
+msgstr ""
+
+#. type: YAML Front Matter: author
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "zzak"
+msgstr ""
+
+#. type: YAML Front Matter: date
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "2023-07-28"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:1
+#, no-wrap
+msgid "This Week in Rails - July 28, 2023"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:12
+#, markdown-text
+msgid ""
+"Hi, it's [zzak](https://github.com/zzak). Let's explore this week's changes "
+"in the Rails codebase."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:13
+#, markdown-text, no-wrap
+msgid ""
+"[Rack::Lint on Rails middleware "
+"tests](https://github.com/skipkayhil/rails/issues/5)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:15
+#, markdown-text
+msgid ""
+"While this work is not technically user-facing, it's important to ensure the "
+"future of Rails continues to maintain compatibility with the [Rack "
+"SPEC](https://github.com/rack/rack/blob/main/SPEC.rdoc). You can read more "
+"about the [Rack 3 upgrade "
+"guide](https://github.com/rack/rack/blob/6d16306192349e665e4ec820a9bfcc0967009b6a/UPGRADE-GUIDE.md) "
+"if you're interested or maintain a library that depends on Rack."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:17
+#, markdown-text, no-wrap
+msgid ""
+"[Sort SchemaCache members when dumping "
+"it](https://github.com/rails/rails/pull/48824)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:19
+#, markdown-text
+msgid ""
+"This PR makes the results of generating the schema cache to be consistent, "
+"allowing use of the file digest for cache keys."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:21
+#, markdown-text, no-wrap
+msgid ""
+"[Add tags to audio analyzer "
+"metadata](https://github.com/rails/rails/pull/48823)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:23
+#, markdown-text
+msgid ""
+"With this change Active Storage will now provide any additional tags from "
+"the metadata when analyzing audio files. This can be useful if you need to "
+"access the encoder, for example."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:25
+#, markdown-text, no-wrap
+msgid ""
+"[Introduce \"capture_emails\" and "
+"\"capture_broadcasts\"](https://github.com/rails/rails/pull/48798)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:27
+#, markdown-text
+msgid ""
+"This PR reverts the previously unreleased behavior added to "
+"\"assert_emails\" and \"assert_broadcasts\" into these two new methods."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:29
+#, markdown-text, no-wrap
+msgid ""
+"[Make ActiveRecord's quoted name caches thread-safe on "
+"JRuby/TruffleRuby](https://github.com/rails/rails/pull/48773)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:31
+#, markdown-text
+msgid ""
+"This commit resolves a thread-safety issue when running a Rails application "
+"on TruffleRuby. ActiveRecord's quoted name caches are updated when building "
+"SQL queries. If two threads are building queries at the same time, they may "
+"both attempt to update the cache. This can cause two threads to see totally "
+"different cache stores, leading to multiple live caches across different "
+"threads which will consume extra memory and may be confusing to debug."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:33
+#, markdown-text, no-wrap
+msgid ""
+"[Prevent inspecting transmit data if not "
+"necessary](https://github.com/rails/rails/pull/48772)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:35
+#, markdown-text
+msgid ""
+"Currently on every call to \"ActionCable::Channel::Base#transmit\", debug "
+"log message is generated that inspects the provided data object. The message "
+"is generated even if the logger's level is above WARN. This patch makes it "
+"so the message is generated only when it can be logged."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:37
+#, markdown-text, no-wrap
+msgid ""
+"[Make all cache stores return a boolean for "
+"\"#delete\"](https://github.com/rails/rails/pull/48638)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:40
+#, markdown-text
+msgid ""
+"This PR makes the behavior of \"Rails.cache.delete('key')\" consistent, so "
+"that it returns \"true\" if an entry exists (and \"false\" otherwise).  "
+"Previously, the RedisCacheStore and FileStore behaved differently."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:42
+#, markdown-text, no-wrap
+msgid ""
+"[Restore behavior of \"where.missing\" and \"where.associated\" on "
+"enums](https://github.com/rails/rails/pull/48738)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:44
+#, markdown-text
+msgid ""
+"This PR fixes a regression where calling the \"associated\" method would "
+"result in an incorrect SQL query, leading to confusing results."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:46
+#, markdown-text, no-wrap
+msgid ""
+"[Lazily deserialize cache "
+"entries](https://github.com/rails/rails/pull/48754)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:47
+#, markdown-text, no-wrap
+msgid ""
+"This adds a cache optimization such that expired and version-mismatched "
+"cache entries can be detected without deserializing their values.  This "
+"optimization is enabled when using cache format version >= 7.1 or a custom "
+"serializer.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:50
+#, markdown-text, no-wrap
+msgid ""
+"[Support replacing cache "
+"compressor](https://github.com/rails/rails/pull/48451)  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:52
+#, markdown-text
+msgid ""
+"This PR adds support for replacing the compressor used for serialized cache "
+"entries, by specifying the \":compressor\" option on "
+"\"config.cache_store\". Similar to the \":coder\" option to replace the "
+"serializer which are responsible for a cached value, coders are responsible "
+"for serializing the entire \"ActiveSupport::Cache::Entry\" instance."
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:55
+#, markdown-text, no-wrap
+msgid ""
+"_You can view the whole list of changes "
+"[here](https://github.com/rails/rails/compare/@%7B2023-07-21%7D...main@%7B2023-07-28%7D)._  "
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../_posts/2023-07-28-this-week-in-rails.markdown:57
+#, markdown-text
+msgid ""
+"_We had [20 "
+"contributors](https://contributors.rubyonrails.org/contributors/in-time-window/20230721-20230728) "
+"to the Rails codebase this past week!_"
 msgstr ""
